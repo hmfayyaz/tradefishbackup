@@ -1,0 +1,174 @@
+/*
+Plugin Name: Marvy - Ultimate Elementor Animation addons
+Author    :   Iqonic Design
+Version   :   1.7.0
+Author URI:   https://iqonic.design/
+*/
+
+/*================================================
+[  Table of contents  ]
+================================================
+
+:: Birds
+:: Globe
+:: Cells
+:: Dots
+:: Fog
+:: Halo
+:: Net
+:: Trunk
+
+======================================
+[ End table content ]
+======================================*/
+
+/*------------------------------- Birds ----------------------------------*/
+[class^="marvy-birds-section-"] {
+    width: 100% !important;
+    height: 100% !important;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/*------------------------------- Globe ----------------------------------*/
+[class^="marvy-globe-section-"] {
+    width: 100% !important;
+    height: 100% !important;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/*------------------------------- Cells ----------------------------------*/
+[class^="marvy-cells-section-"] {
+    width: 100% !important;
+    height: 100% !important;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/*------------------------------- Dots ----------------------------------*/
+[class^="marvy-dots-section-"] {
+    width: 100% !important;
+    height: 100% !important;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/*------------------------------- Fog ----------------------------------*/
+[class^="marvy-fog-section-"] {
+    width: 100% !important;
+    height: 100% !important;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/*------------------------------- Halo ----------------------------------*/
+[class^="marvy-halo-section-"] {
+    width: 100% !important;
+    height: 100% !important;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/*------------------------------- Net ----------------------------------*/
+[class^="marvy-net-section-"] {
+    width: 100% !important;
+    height: 100% !important;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/*------------------------------- Trunk ----------------------------------*/
+[class^="marvy-trunk-section-"] {
+    width: 100% !important;
+    height: 100% !important;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/*------------------------------- Floating Heart ----------------------------------*/
+.marvy-custom-floating-heart-animation {
+    margin: 0;
+    overflow: hidden !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+/*------------------------------- Particles Canvas ----------------------------------*/
+
+.marvy-custom-particles-wave-animation {
+    display: flex;
+    overflow: hidden !important;
+
+}
+
+.marvy-custom-particles-wave-animation.with-default-background {
+    background: linear-gradient(to bottom, rgb(10, 10, 50) 0%, rgb(60, 10, 60) 100%);
+}
+
+.marvy-particles-wave {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/*------------------------------- DNA ----------------------------------*/
+[class^="marvy-custom-dna-animation-section-"] {
+    overflow: hidden !important;
+}
+
+[class^="marvy-dna-section-"] {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden !important;
+}
+
+
+/*------------------------------- Beyblade ----------------------------------*/
+[class^="marvy-custom-beyblade-animation-section-"] {
+    overflow: hidden !important;
+    position: relative;
+}
+[class^="marvy-beyblade-section-"]
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}

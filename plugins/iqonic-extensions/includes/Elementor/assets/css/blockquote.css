@@ -1,0 +1,11 @@
+/*---------------------------------------------------------------------
+                 Blockquote
+-----------------------------------------------------------------------*/
+.iq-blockquote blockquote  .iq-quote .iq-symbol { position: absolute; top: 15px; font-size: 90px; line-height: 90px; color: var(--primary-color); }
+.iq-blockquote.text-left  blockquote  .iq-quote .iq-symbol { left: 30px; }
+.iq-blockquote.text-right  blockquote  .iq-quote .iq-symbol { right: 30px; }
+.iq-blockquote.text-left  blockquote  .iq-quote .iq-quote-content { margin-left: 60px; }
+.iq-blockquote.text-right  blockquote  .iq-quote .iq-quote-content { margin-right: 60px; }
+.iq-blockquote.text-center  blockquote { padding: 75px 30px 15px; }
+.iq-blockquote blockquote .iq-quote  .iq-quote-content .iq-blockquote-author { display: block; }
+.iq-blockquote.iq-blockquote-shadow { -webkit-box-shadow: -1px 4px 30px 0px rgba(0, 0, 0, 0.06); -moz-box-shadow: -1px 4px 30px 0px rgba(0, 0, 0, 0.06); box-shadow: -1px 4px 30px 0px rgba(0, 0, 0, 0.06); }

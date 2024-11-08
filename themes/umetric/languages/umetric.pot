@@ -1,0 +1,2734 @@
+# Copyright (C) 2022 Umetric
+# This file is distributed under the same license as the Umetric package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Umetric\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Umetric\n"
+"Report-Msgid-Bugs-To: Umetric\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../umetric/comments.php:41
+msgid " Comments"
+msgstr ""
+
+#: ../umetric/comments.php:39
+msgid " Comment"
+msgstr ""
+
+#: ../umetric/comments.php:52
+msgid "Comments are closed."
+msgstr ""
+
+#: ../umetric/comments.php:58, ../umetric/inc/Actions/Component.php:112
+msgid "Post Comment"
+msgstr ""
+
+#: ../umetric/comments.php:59
+msgid "Your email address will not be published. Required fields are marked *"
+msgstr ""
+
+#: ../umetric/comments.php:61
+msgid "Comment*"
+msgstr ""
+
+#: ../umetric/comments.php:68
+msgid "Name*"
+msgstr ""
+
+#: ../umetric/comments.php:73
+msgid "Email*"
+msgstr ""
+
+#: ../umetric/comments.php:78
+msgid "Website"
+msgstr ""
+
+#: ../umetric/comments.php:84
+msgid "Save my name, email, and website in this browser for the next time I comment."
+msgstr ""
+
+#: ../umetric/footer.php:35, ../umetric/footer.php:45
+msgid "iq-over-dark-90"
+msgstr ""
+
+#: ../umetric/header.php:154, ../umetric/header.php:123
+msgid "loader"
+msgstr ""
+
+#: ../umetric/header.php:289
+msgid "Skip to content"
+msgstr ""
+
+#: ../umetric/searchform.php:16, ../umetric/template-parts/content/error.php:38
+msgid "Search website"
+msgstr ""
+
+#: ../umetric/searchform.php:20, ../umetric/template-parts/content/error.php:39
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: ../umetric/sidebar.php:19
+msgid "Asides"
+msgstr ""
+
+#: ../umetric/single-career.php:3
+msgid "Career"
+msgstr ""
+
+#: ../umetric/single-portfolio.php:3
+msgid "Portfolio"
+msgstr ""
+
+#. translators: 1: required WP version number, 2: required PHP version number, 3: available WP version number, 4: available PHP version number
+#: ../umetric/inc/back-compat.php:25
+msgid "Umetric requires at least WordPress version %1$s and PHP version %2$s. You are running versions %3$s and %3$s respectively. Please update and try again."
+msgstr ""
+
+#. translators: 1: required WP version number, 2: available WP version number
+#: ../umetric/inc/back-compat.php:30
+msgid "Umetric requires at least WordPress version %1$s. You are running version %2$s. Please update and try again."
+msgstr ""
+
+#. translators: 1: required PHP version number, 2: available PHP version number
+#: ../umetric/inc/back-compat.php:35
+msgid "Umetric requires at least PHP version %1$s. You are running version %2$s. Please update and try again."
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:346
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:347, ../umetric/inc/Theme_Setup/Component.php:112
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: ../umetric/inc/class-tgm-plugin-activation.php:349
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: ../umetric/inc/class-tgm-plugin-activation.php:351
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:352
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:353
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:359
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:365
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:371
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:377
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:383
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:389
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:394
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:399
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:404
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:405, ../umetric/inc/class-tgm-plugin-activation.php:924, ../umetric/inc/class-tgm-plugin-activation.php:2630, ../umetric/inc/class-tgm-plugin-activation.php:3677
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:406, ../umetric/inc/class-tgm-plugin-activation.php:3256
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:407, ../umetric/inc/class-tgm-plugin-activation.php:3049
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: ../umetric/inc/class-tgm-plugin-activation.php:409
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: ../umetric/inc/class-tgm-plugin-activation.php:411
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: ../umetric/inc/class-tgm-plugin-activation.php:413
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:414
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:415
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:416
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:619
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:620
+msgid "Update Required"
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:1034
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:1034, ../umetric/inc/class-tgm-plugin-activation.php:1031
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:1031
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:1218, ../umetric/inc/class-tgm-plugin-activation.php:3045
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: ../umetric/inc/class-tgm-plugin-activation.php:2079
+msgid "TGMPA v%s"
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:2370
+msgid "Required"
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:2373
+msgid "Recommended"
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:2389
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:2392
+msgid "External Source"
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:2395
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:2412
+msgid "Not Installed"
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:2418
+msgid "Active"
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:2416
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:2430
+msgid "Update recommended"
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:2427
+msgid "Requires Update"
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:2424
+msgid "Required Update not Available"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: ../umetric/inc/class-tgm-plugin-activation.php:2439
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: ../umetric/inc/class-tgm-plugin-activation.php:2485
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: ../umetric/inc/class-tgm-plugin-activation.php:2489
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: ../umetric/inc/class-tgm-plugin-activation.php:2493
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: ../umetric/inc/class-tgm-plugin-activation.php:2497
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:2579
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:2587
+msgid "Installed version:"
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:2595
+msgid "Minimum required version:"
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:2607
+msgid "Available version:"
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:2630
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:2644
+msgid "Plugin"
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:2645
+msgid "Source"
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:2646
+msgid "Type"
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:2650
+msgid "Version"
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:2651
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: ../umetric/inc/class-tgm-plugin-activation.php:2705
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: ../umetric/inc/class-tgm-plugin-activation.php:2711
+msgid "Activate %2$s"
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:2700
+msgid "Install %2$s"
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:2781
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:2814, ../umetric/inc/Theme_Setup/Component.php:80, ../umetric/inc/Theme_Setup/Component.php:81, ../umetric/inc/Theme_Setup/Component.php:82
+msgid "Install"
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:2820
+msgid "Update"
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:2823, ../umetric/inc/Theme_Setup/Component.php:84
+msgid "Activate"
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:2856
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:2854
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:2899
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:2897
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:3005
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:3031
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:3255
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: ../umetric/inc/class-tgm-plugin-activation.php:3598
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: ../umetric/inc/class-tgm-plugin-activation.php:3600
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:3612
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: ../umetric/inc/class-tgm-plugin-activation.php:3614
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:3614, ../umetric/inc/class-tgm-plugin-activation.php:3606
+msgid "Show Details"
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:3614, ../umetric/inc/class-tgm-plugin-activation.php:3606
+msgid "Hide Details"
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:3615
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: ../umetric/inc/class-tgm-plugin-activation.php:3617
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:3604
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:3606
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:3607
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:3609
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../umetric/inc/class-tgm-plugin-activation.php:3595
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: classname/type of the variable, 2: interface name
+#: ../umetric/inc/Template_Tags.php:54
+msgid "The theme templating component %1$s does not implement the %2$s interface."
+msgstr ""
+
+#. translators: %s: template tag name
+#: ../umetric/inc/Template_Tags.php:81
+msgid "The template tag %s does not exist."
+msgstr ""
+
+#. translators: 1: template tag method name, 2: component class name
+#: ../umetric/inc/Template_Tags.php:110
+msgid "The template tag method %1$s registered by theme component %2$s must either be a callable or an array."
+msgstr ""
+
+#. translators: 1: template tag method name, 2: component class name
+#: ../umetric/inc/Template_Tags.php:121
+msgid "The template tag method %1$s registered by theme component %2$s conflicts with an already registered template tag of the same name."
+msgstr ""
+
+#. translators: 1: classname/type of the variable, 2: interface name
+#: ../umetric/inc/Theme.php:57
+msgid "The theme component %1$s does not implement the %2$s interface."
+msgstr ""
+
+#. translators: %s: slug
+#: ../umetric/inc/Theme.php:120
+msgid "No theme component with the slug %s exists."
+msgstr ""
+
+#: ../umetric/inc/Accessibility/Component.php:66
+msgid "Expand child menu"
+msgstr ""
+
+#: ../umetric/inc/Accessibility/Component.php:67
+msgid "Collapse child menu"
+msgstr ""
+
+#: ../umetric/inc/Actions/Component.php:92
+msgid "Setup header layout"
+msgstr ""
+
+#: ../umetric/inc/Actions/Component.php:95
+msgid "Setup footer layout"
+msgstr ""
+
+#: ../umetric/inc/Actions/Component.php:98
+msgid "Setup menu layout"
+msgstr ""
+
+#: ../umetric/inc/Actions/Component.php:101
+msgid "Setup 404 page layout"
+msgstr ""
+
+#: ../umetric/inc/Comments/Component.php:151
+msgid "New comment(s)"
+msgstr ""
+
+#: ../umetric/inc/Comments/Component.php:206
+msgid "(Edit)"
+msgstr ""
+
+#: ../umetric/inc/Comments/Component.php:229
+msgid "Edit"
+msgstr ""
+
+#: ../umetric/inc/Comments/Component.php:237
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../umetric/inc/Comments/Component.php:244
+msgid "Reply"
+msgstr ""
+
+#: ../umetric/inc/Common/Component.php:245
+msgid "%s"
+msgstr ""
+
+#: ../umetric/inc/Common/Component.php:269, ../umetric/inc/Common/Component.php:265
+msgid "iq-bg-over iq-over-dark-80"
+msgstr ""
+
+#: ../umetric/inc/Common/Component.php:267
+msgid "breadcrumb-bg breadcrumb-ui"
+msgstr ""
+
+#: ../umetric/inc/Common/Component.php:263
+msgid "iq-bg-over black"
+msgstr ""
+
+#: ../umetric/inc/Common/Component.php:427
+msgid "Oops! That page can not be found."
+msgstr ""
+
+#: ../umetric/inc/Common/Component.php:422
+msgid "Search"
+msgstr ""
+
+#: ../umetric/inc/Common/Component.php:474
+msgid "banner"
+msgstr ""
+
+#: ../umetric/inc/Common/Component.php:482, ../umetric/template-parts/breadcrumb/breadcrumb.php:18
+msgid "Home"
+msgstr ""
+
+#: ../umetric/inc/Common/Component.php:569
+msgid "Error 404"
+msgstr ""
+
+#: ../umetric/inc/Common/Component.php:567
+msgid "Articles posted by : "
+msgstr ""
+
+#: ../umetric/inc/Common/Component.php:563
+msgid "Posts tagged"
+msgstr ""
+
+#: ../umetric/inc/Common/Component.php:502
+msgid "Search results for : "
+msgstr ""
+
+#: ../umetric/inc/Common/Component.php:500
+msgid "Archive by category : "
+msgstr ""
+
+#: ../umetric/inc/Common/Component.php:496
+msgid "Blogs"
+msgstr ""
+
+#: ../umetric/inc/Common/Component.php:573
+msgid "Page"
+msgstr ""
+
+#: ../umetric/inc/Common/Component.php:657, ../umetric/inc/Common/Component.php:684, ../umetric/inc/Common/Component.php:710, ../umetric/inc/Common/Component.php:740, ../umetric/inc/Common/Component.php:737, ../umetric/inc/Common/Component.php:789, ../umetric/inc/Common/Component.php:786, ../umetric/inc/Common/Component.php:836, ../umetric/template-parts/header/navigation-collapsed.php:34, ../umetric/template-parts/header/navigation-one.php:50, ../umetric/template-parts/header/navigation-one.php:51, ../umetric/template-parts/header/navigation-vertical.php:21, ../umetric/template-parts/header/navigation.php:22, ../umetric/template-parts/header/navigation.php:23, ../umetric/inc/Dynamic_Style/Styles/Logo.php:61, ../umetric/inc/Dynamic_Style/Styles/Logo.php:89, ../umetric/inc/Dynamic_Style/Styles/Logo.php:115, ../umetric/inc/Redux_Framework/Options/Logo.php:294
+msgid "umetric"
+msgstr ""
+
+#: ../umetric/inc/Common/Component.php:886
+msgid "Umetric for v2.0 Important Information!"
+msgstr ""
+
+#: ../umetric/inc/Common/Component.php:888
+msgid "Umetric brings your site to life with header video and immersive featured images. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more."
+msgstr ""
+
+#: ../umetric/inc/Common/Component.php:890
+msgid "Visit Site"
+msgstr ""
+
+#: ../umetric/inc/Common/Component.php:891
+msgid "Rollback to Old Version"
+msgstr ""
+
+#: ../umetric/inc/Common/Component.php:892
+msgid "Support Ticket"
+msgstr ""
+
+#: ../umetric/inc/Common/Component.php:898
+msgid "Dismiss"
+msgstr ""
+
+#: ../umetric/inc/Customizer/Component.php:78
+msgid "Theme Options"
+msgstr ""
+
+#: ../umetric/inc/Editor/Component.php:65
+msgid "Primary"
+msgstr ""
+
+#: ../umetric/inc/Editor/Component.php:70
+msgid "Secondary"
+msgstr ""
+
+#: ../umetric/inc/Editor/Component.php:75
+msgid "Red"
+msgstr ""
+
+#: ../umetric/inc/Editor/Component.php:80
+msgid "Green"
+msgstr ""
+
+#: ../umetric/inc/Editor/Component.php:85
+msgid "Blue"
+msgstr ""
+
+#: ../umetric/inc/Editor/Component.php:90
+msgid "Yellow"
+msgstr ""
+
+#: ../umetric/inc/Editor/Component.php:95
+msgid "Black"
+msgstr ""
+
+#: ../umetric/inc/Editor/Component.php:100
+msgid "Grey"
+msgstr ""
+
+#: ../umetric/inc/Editor/Component.php:105
+msgid "White"
+msgstr ""
+
+#: ../umetric/inc/Editor/Component.php:110
+msgid "Dusty daylight"
+msgstr ""
+
+#: ../umetric/inc/Editor/Component.php:115
+msgid "Dusty sun"
+msgstr ""
+
+#: ../umetric/inc/Editor/Component.php:132
+msgid "Small"
+msgstr ""
+
+#: ../umetric/inc/Editor/Component.php:133
+msgid "S"
+msgstr ""
+
+#: ../umetric/inc/Editor/Component.php:138
+msgid "Medium"
+msgstr ""
+
+#: ../umetric/inc/Editor/Component.php:139
+msgid "M"
+msgstr ""
+
+#: ../umetric/inc/Editor/Component.php:144
+msgid "Large"
+msgstr ""
+
+#: ../umetric/inc/Editor/Component.php:145
+msgid "L"
+msgstr ""
+
+#: ../umetric/inc/Editor/Component.php:150
+msgid "Larger"
+msgstr ""
+
+#: ../umetric/inc/Editor/Component.php:151
+msgid "XL"
+msgstr ""
+
+#: ../umetric/inc/Footer/Component.php:92
+msgid "text-left"
+msgstr ""
+
+#: ../umetric/inc/Footer/Component.php:93
+msgid "text-right"
+msgstr ""
+
+#: ../umetric/inc/Footer/Component.php:94
+msgid "text-center"
+msgstr ""
+
+#: ../umetric/inc/Import/Component.php:101
+msgid "All Content"
+msgstr ""
+
+#: ../umetric/inc/Import/Component.php:112
+msgid "DEMO IMPORT REQUIREMENTS: Memory Limit of 128 MB and max execution time (php time limit) of 300 seconds. "
+msgstr ""
+
+#: ../umetric/inc/Import/Component.php:113
+msgid "Based on your INTERNET SPEED it could take 5 to 25 minutes. "
+msgstr ""
+
+#: ../umetric/inc/Merlin/class-merlin.php:572
+msgid "Welcome"
+msgstr ""
+
+#: ../umetric/inc/Merlin/class-merlin.php:934
+msgid "PHP Configuration"
+msgstr ""
+
+#: ../umetric/inc/Merlin/class-merlin.php:935
+msgid "Recommended (Min)"
+msgstr ""
+
+#: ../umetric/inc/Merlin/class-merlin.php:936
+msgid "Existing"
+msgstr ""
+
+#: ../umetric/inc/Merlin/class-merlin.php:1145
+msgid "About child theme"
+msgstr ""
+
+#: ../umetric/inc/Merlin/class-merlin.php:1147
+msgid "A child theme allows you to change small aspects of your site's appearance yet still preserve your theme's look and functionality. To understand how child themes work it is first important to understand the relationship between parent and child themes."
+msgstr ""
+
+#: ../umetric/inc/Merlin/class-merlin.php:1341
+msgid "Something went worng !"
+msgstr ""
+
+#: ../umetric/inc/Merlin/class-merlin.php:1344
+msgid " Below listed plugin has been not installed. Install it mannually or submit the ticket for Help."
+msgstr ""
+
+#: ../umetric/inc/Merlin/class-merlin.php:1370
+msgid "Download"
+msgstr ""
+
+#: ../umetric/inc/Merlin/class-merlin.php:1376
+msgid "Try Again"
+msgstr ""
+
+#: ../umetric/inc/Merlin/class-merlin.php:1377
+msgid "Get Support"
+msgstr ""
+
+#: ../umetric/inc/Nav_Menus/Component.php:67
+msgid "Top Menu"
+msgstr ""
+
+#: ../umetric/inc/Nav_Menus/Component.php:68
+msgid "Vertical Menu"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Component.php:64, ../umetric/inc/Redux_Framework/Component.php:65
+msgid "Umetric Options"
+msgstr ""
+
+#: ../umetric/inc/Sidebars/Component.php:76
+msgid "Blog Sidebar"
+msgstr ""
+
+#: ../umetric/inc/Sidebars/Component.php:78
+msgid "Add widgets here."
+msgstr ""
+
+#: ../umetric/inc/Sidebars/Component.php:88
+msgid "Footer Top Area"
+msgstr ""
+
+#: ../umetric/inc/Sidebars/Component.php:97, ../umetric/inc/Redux_Framework/Options/Header.php:741
+msgid "Side Area"
+msgstr ""
+
+#. translators: %s: stylesheet handle
+#: ../umetric/inc/Styles/Component.php:232
+msgid "Invalid theme stylesheet handle: %s"
+msgstr ""
+
+#: ../umetric/inc/TGM/Component.php:58
+msgid "Revolution Slider"
+msgstr ""
+
+#: ../umetric/inc/TGM/Component.php:64
+msgid "Advanced Custom Fields"
+msgstr ""
+
+#: ../umetric/inc/TGM/Component.php:69
+msgid "Elementor"
+msgstr ""
+
+#: ../umetric/inc/TGM/Component.php:74
+msgid "Contact Form 7"
+msgstr ""
+
+#: ../umetric/inc/TGM/Component.php:79
+msgid "Mailchimp"
+msgstr ""
+
+#: ../umetric/inc/TGM/Component.php:85
+msgid "Iqonic Extensions"
+msgstr ""
+
+#: ../umetric/inc/TGM/Component.php:92
+msgid "umetric Extensions"
+msgstr ""
+
+#: ../umetric/inc/TGM/Component.php:99
+msgid "Graphina – Elementor Charts and Graphs"
+msgstr ""
+
+#: ../umetric/inc/TGM/Component.php:105
+msgid "GraphinaPro – Elementor Dynamic Charts & Datatable"
+msgstr ""
+
+#: ../umetric/inc/TGM/Component.php:112
+msgid "Marvy – Background Animations for Elementor"
+msgstr ""
+
+#: ../umetric/inc/TGM/Component.php:118
+msgid "Marvy – Ultimate Elementor Animation addons"
+msgstr ""
+
+#: ../umetric/inc/TGM/Component.php:125
+msgid "Iqonic Layouts"
+msgstr ""
+
+#: ../umetric/inc/TGM/Component.php:132
+msgid "Interactive Geo Maps"
+msgstr ""
+
+#: ../umetric/inc/TGM/Component.php:138
+msgid "Visualizer: Tables and Charts for WordPress"
+msgstr ""
+
+#: ../umetric/inc/TGM/Component.php:144
+msgid "WP Roadmap – Product Feedback Board"
+msgstr ""
+
+#: ../umetric/inc/Theme_Setup/Component.php:69
+msgid "Theme Setup"
+msgstr ""
+
+#. translators: 1: Title Tag 2: Theme Name 3: Closing Title Tag
+#: ../umetric/inc/Theme_Setup/Component.php:72
+msgid "%1$s%2$s Themes &lsaquo; Theme Setup: %3$s%4$s"
+msgstr ""
+
+#: ../umetric/inc/Theme_Setup/Component.php:73
+msgid "Return to the dashboard"
+msgstr ""
+
+#: ../umetric/inc/Theme_Setup/Component.php:74
+msgid "Disable this wizard"
+msgstr ""
+
+#: ../umetric/inc/Theme_Setup/Component.php:76
+msgid "Skip"
+msgstr ""
+
+#: ../umetric/inc/Theme_Setup/Component.php:77, ../umetric/template-parts/content/entry_single-portfolio.php:11
+msgid "Next"
+msgstr ""
+
+#: ../umetric/inc/Theme_Setup/Component.php:78
+msgid "Start"
+msgstr ""
+
+#: ../umetric/inc/Theme_Setup/Component.php:79
+msgid "Cancel"
+msgstr ""
+
+#: ../umetric/inc/Theme_Setup/Component.php:83
+msgid "Import"
+msgstr ""
+
+#: ../umetric/inc/Theme_Setup/Component.php:85
+msgid "Later"
+msgstr ""
+
+#. translators: Theme Name
+#: ../umetric/inc/Theme_Setup/Component.php:88
+msgid "Activate %s"
+msgstr ""
+
+#. translators: Theme Name
+#: ../umetric/inc/Theme_Setup/Component.php:90
+msgid "%s is Activated"
+msgstr ""
+
+#. translators: Theme Name
+#: ../umetric/inc/Theme_Setup/Component.php:92
+msgid "Enter your license key to enable remote updates and theme support."
+msgstr ""
+
+#: ../umetric/inc/Theme_Setup/Component.php:93
+msgid "License key"
+msgstr ""
+
+#: ../umetric/inc/Theme_Setup/Component.php:94
+msgid "The theme is already registered, so you can go to the next step!"
+msgstr ""
+
+#: ../umetric/inc/Theme_Setup/Component.php:95
+msgid "Your theme is activated! Remote updates and theme support are enabled."
+msgstr ""
+
+#: ../umetric/inc/Theme_Setup/Component.php:96
+msgid "Need help?"
+msgstr ""
+
+#. translators: Theme Name
+#: ../umetric/inc/Theme_Setup/Component.php:99
+msgid "Welcome to %s"
+msgstr ""
+
+#: ../umetric/inc/Theme_Setup/Component.php:100
+msgid "Hi. Welcome back"
+msgstr ""
+
+#: ../umetric/inc/Theme_Setup/Component.php:104
+msgid "Install Child Theme"
+msgstr ""
+
+#: ../umetric/inc/Theme_Setup/Component.php:105
+msgid "You're good to go!"
+msgstr ""
+
+#: ../umetric/inc/Theme_Setup/Component.php:106
+msgid "Let's build & activate a child theme so you may easily make theme changes."
+msgstr ""
+
+#: ../umetric/inc/Theme_Setup/Component.php:107
+msgid "Your child theme has already been installed and ready activated, if it wasn't already."
+msgstr ""
+
+#: ../umetric/inc/Theme_Setup/Component.php:108
+msgid "Learn more about child themes"
+msgstr ""
+
+#: ../umetric/inc/Theme_Setup/Component.php:109
+msgid "Awesome. Your child theme has already been installed and ready to activated."
+msgstr ""
+
+#: ../umetric/inc/Theme_Setup/Component.php:110
+msgid "Awesome. Your child theme has been created and ready to activated."
+msgstr ""
+
+#: ../umetric/inc/Theme_Setup/Component.php:113
+msgid "You're up to speed!"
+msgstr ""
+
+#: ../umetric/inc/Theme_Setup/Component.php:114
+msgid "Let's install some essential WordPress plugins to get your site up to speed."
+msgstr ""
+
+#: ../umetric/inc/Theme_Setup/Component.php:115
+msgid "The required WordPress plugins are all installed and up to date. Press \"Next\" to continue the setup wizard."
+msgstr ""
+
+#: ../umetric/inc/Theme_Setup/Component.php:116, ../umetric/inc/Theme_Setup/Component.php:120
+msgid "Advanced"
+msgstr ""
+
+#: ../umetric/inc/Theme_Setup/Component.php:118
+msgid "Import Content"
+msgstr ""
+
+#: ../umetric/inc/Theme_Setup/Component.php:119
+msgid "Let's import content to your website, to help you get familiar with the theme."
+msgstr ""
+
+#: ../umetric/inc/Theme_Setup/Component.php:122
+msgid "All done. Have fun!"
+msgstr ""
+
+#. translators: Theme Author
+#: ../umetric/inc/Theme_Setup/Component.php:125
+msgid "Your theme has been all set up. Enjoy your new theme by %s."
+msgstr ""
+
+#: ../umetric/inc/Theme_Setup/Component.php:126
+msgid "Extras"
+msgstr ""
+
+#: ../umetric/inc/Theme_Setup/Component.php:127
+msgid "View your website"
+msgstr ""
+
+#: ../umetric/inc/Theme_Setup/Component.php:128
+msgid "Explore WordPress"
+msgstr ""
+
+#: ../umetric/inc/Theme_Setup/Component.php:129
+msgid "Get Theme Support"
+msgstr ""
+
+#: ../umetric/inc/Theme_Setup/Component.php:130
+msgid "Start Customizing"
+msgstr ""
+
+#: ../umetric/template-parts/content/entry-attachment.php:33
+msgid "Previous:"
+msgstr ""
+
+#: ../umetric/template-parts/content/entry-attachment.php:43
+msgid "Next:"
+msgstr ""
+
+#: ../umetric/template-parts/content/entry-attachment.php:49
+msgid "Post navigation"
+msgstr ""
+
+#: ../umetric/template-parts/content/entry.php:30, ../umetric/template-parts/content/entry_page.php:20
+msgid "Pages:"
+msgstr ""
+
+#: ../umetric/template-parts/content/entry_actions.php:14
+msgid "Read More"
+msgstr ""
+
+#. translators: %s: post author
+#: ../umetric/template-parts/content/entry_header.php:36
+msgctxt "post author"
+msgid "By %s"
+msgstr ""
+
+#. translators: %s: post author
+#: ../umetric/template-parts/content/entry_header.php:39
+msgctxt "post author"
+msgid "%s"
+msgstr ""
+
+#. translators: %s: post parent title
+#: ../umetric/template-parts/content/entry_meta.php:61
+msgctxt "post parent"
+msgid "In %s"
+msgstr ""
+
+#. translators: %s: post parent title
+#: ../umetric/template-parts/content/entry_meta.php:64
+msgctxt "post parent"
+msgid "in %s"
+msgstr ""
+
+#: ../umetric/template-parts/content/entry_single-portfolio.php:12
+msgid "Next post:"
+msgstr ""
+
+#: ../umetric/template-parts/content/entry_single-portfolio.php:14
+msgid "Previous"
+msgstr ""
+
+#: ../umetric/template-parts/content/entry_single-portfolio.php:15
+msgid "Previous post:"
+msgstr ""
+
+#: ../umetric/template-parts/content/entry_taxonomies.php:21
+msgid "Tags:"
+msgstr ""
+
+#: ../umetric/template-parts/content/error-404.php:42, ../umetric/template-parts/content/error-404.php:36, ../umetric/inc/Redux_Framework/Options/FourZeroFour.php:25
+msgid "404"
+msgstr ""
+
+#: ../umetric/template-parts/content/error-404.php:54, ../umetric/inc/Redux_Framework/Options/FourZeroFour.php:68
+msgid "Oops! This Page is Not Found."
+msgstr ""
+
+#: ../umetric/template-parts/content/error-404.php:65, ../umetric/inc/Redux_Framework/Options/FourZeroFour.php:76
+msgid "The requested page does not exist."
+msgstr ""
+
+#: ../umetric/template-parts/content/error-offline.php:14
+msgid "Oops! It looks like you&#8217;re offline."
+msgstr ""
+
+#: ../umetric/template-parts/content/error.php:50
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: ../umetric/template-parts/content/error.php:34
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: ../umetric/template-parts/content/error.php:21
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../umetric/template-parts/content/page_header.php:39, ../umetric/template-parts/content/page_header.php:22
+msgid "Nothing Found"
+msgstr ""
+
+#: ../umetric/template-parts/content/page_header.php:14
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: ../umetric/template-parts/footer/info.php:32, ../umetric/template-parts/footer/info.php:23
+msgid "https://themeforest.net/user/iqonicthemes/portfolio/"
+msgstr ""
+
+#: ../umetric/template-parts/footer/info.php:33
+msgid "© 2022"
+msgstr ""
+
+#: ../umetric/template-parts/footer/info.php:34
+msgid " umetric "
+msgstr ""
+
+#: ../umetric/template-parts/footer/info.php:35
+msgid ". All Rights Reserved."
+msgstr ""
+
+#: ../umetric/template-parts/footer/info.php:23
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/AdditionalCode.php:21
+msgid "Additional Code"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/AdditionalCode.php:24, ../umetric/inc/Redux_Framework/Options/Header.php:35
+msgid "This section contains options for header."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/AdditionalCode.php:30
+msgid "CSS Code"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/AdditionalCode.php:31
+msgid "Paste your css code here."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/AdditionalCode.php:33
+msgid "Paste your custom CSS code here."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/AdditionalCode.php:39
+msgid "JS Code"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/AdditionalCode.php:40
+msgid "Paste your js code in footer."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/AdditionalCode.php:43
+msgid "Paste your custom JS code here."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Banner.php:25
+msgid "Banner Settings"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Banner.php:28
+msgid "This section contains options for Page Breadcrumbs Area."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Banner.php:35
+msgid "Banner Layout Options"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Banner.php:47
+msgid "Select Image"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Banner.php:48
+msgid "A preview of the selected image will appear underneath the select box."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Banner.php:78
+msgid "Set Banner Side Image"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Banner.php:86
+msgid "Display Banner"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Banner.php:88, ../umetric/inc/Redux_Framework/Options/Banner.php:99, ../umetric/inc/Redux_Framework/Options/Banner.php:112, ../umetric/inc/Redux_Framework/Options/Footer.php:202, ../umetric/inc/Redux_Framework/Options/Footer.php:303, ../umetric/inc/Redux_Framework/Options/Footer.php:356, ../umetric/inc/Redux_Framework/Options/Header.php:730, ../umetric/inc/Redux_Framework/Options/Logo.php:245, ../umetric/inc/Redux_Framework/Options/Typography.php:34
+msgid "Yes"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Banner.php:89, ../umetric/inc/Redux_Framework/Options/Banner.php:100, ../umetric/inc/Redux_Framework/Options/Banner.php:113, ../umetric/inc/Redux_Framework/Options/Footer.php:203, ../umetric/inc/Redux_Framework/Options/Footer.php:304, ../umetric/inc/Redux_Framework/Options/Footer.php:357, ../umetric/inc/Redux_Framework/Options/Header.php:731, ../umetric/inc/Redux_Framework/Options/Logo.php:246, ../umetric/inc/Redux_Framework/Options/Typography.php:35
+msgid "No"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Banner.php:91, ../umetric/inc/Redux_Framework/Options/Banner.php:104, ../umetric/inc/Redux_Framework/Options/Banner.php:117, ../umetric/inc/Redux_Framework/Options/Blog.php:68, ../umetric/inc/Redux_Framework/Options/Blog.php:80, ../umetric/inc/Redux_Framework/Options/Blog.php:113, ../umetric/inc/Redux_Framework/Options/Footer.php:205, ../umetric/inc/Redux_Framework/Options/Footer.php:306, ../umetric/inc/Redux_Framework/Options/Footer.php:359, ../umetric/inc/Redux_Framework/Options/Header.php:654, ../umetric/inc/Redux_Framework/Options/Header.php:733, ../umetric/inc/Redux_Framework/Options/Header.php:757
+msgid "yes"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Banner.php:97
+msgid "Display Breadcrumbs on Banner"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Banner.php:110
+msgid "Display Title on Banner"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Banner.php:123
+msgid "Set Breadcrumb Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Banner.php:124, ../umetric/inc/Redux_Framework/Options/Banner.php:133, ../umetric/inc/Redux_Framework/Options/Banner.php:141
+msgid "Choose Title Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Banner.php:132
+msgid "Set Breadcrumb Active Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Banner.php:140
+msgid "Set Title Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Banner.php:149
+msgid "Background Set Option"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Banner.php:150
+msgid "Select this option for Background Type color or image and video."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Banner.php:162
+msgid "Set Background Image"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Banner.php:165
+msgid "Upload Image for your background."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Banner.php:172, ../umetric/inc/Redux_Framework/Options/Footer.php:400, ../umetric/inc/Redux_Framework/Options/General.php:132, ../umetric/inc/Redux_Framework/Options/Header.php:779
+msgid "Set Background Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Banner.php:173
+msgid "Choose Background Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Banner.php:182
+msgid "Background Opacity Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Banner.php:186
+msgid "Select this option for Background Opacity Color."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Banner.php:198
+msgid "Opacity color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Banner.php:200, ../umetric/inc/Redux_Framework/Options/Footer.php:164
+msgid "Choose body Gradient background color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Blog.php:21
+msgid "Blog"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Blog.php:28
+msgid "General Blogs"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Blog.php:31
+msgid "This section contains options for blog."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Blog.php:38
+msgid "Blog Page Default Banner Image"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Blog.php:41, ../umetric/inc/Redux_Framework/Options/FourZeroFour.php:60
+msgid "Upload banner image for your Website. Otherwise blank field will be displayed in place of this section."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Blog.php:41
+msgid "(Note:Only Display Banner Style Second & Third in Page Banner Setting)"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Blog.php:47
+msgid "Blog page Setting"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Blog.php:48
+msgid "Choose among these structures (Right Sidebar, Left Sidebar, 1column, 2column and 3column) for your blog section.<br />To filling these column sections you should go to appearance > widget.<br />And put every widget that you want in these sections."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Blog.php:50
+msgid "One Columns"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Blog.php:51
+msgid "Two Columns"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Blog.php:52
+msgid "Three Columns"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Blog.php:53, ../umetric/inc/Redux_Framework/Options/Blog.php:98, ../umetric/inc/Redux_Framework/Options/Page.php:32
+msgid "Right Sidebar"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Blog.php:54, ../umetric/inc/Redux_Framework/Options/Blog.php:99, ../umetric/inc/Redux_Framework/Options/Page.php:33
+msgid "Left Sidebar"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Blog.php:62
+msgid "Pagination"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Blog.php:63
+msgid "Turn on to display the post pagination for blog page."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Blog.php:65, ../umetric/inc/Redux_Framework/Options/Blog.php:77, ../umetric/inc/Redux_Framework/Options/Blog.php:110, ../umetric/inc/Redux_Framework/Options/Header.php:651, ../umetric/inc/Redux_Framework/Options/Header.php:754
+msgid "On"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Blog.php:66, ../umetric/inc/Redux_Framework/Options/Blog.php:78, ../umetric/inc/Redux_Framework/Options/Blog.php:111, ../umetric/inc/Redux_Framework/Options/Header.php:652, ../umetric/inc/Redux_Framework/Options/Header.php:755
+msgid "Off"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Blog.php:74
+msgid "Featured Image on Blog Archive Page"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Blog.php:75
+msgid "Turn on to display featured images on the blog or archive pages."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Blog.php:86
+msgid "Blog Single Post"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Blog.php:94
+msgid "Blog Single page Setting"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Blog.php:95
+msgid "Choose among these structures (Right Sidebar, Left Sidebar and 1column) for your blog section.<br />To filling these column sections you should go to appearance > widget.<br />And put every widget that you want in these sections."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Blog.php:97, ../umetric/inc/Redux_Framework/Options/General.php:62, ../umetric/inc/Redux_Framework/Options/Page.php:31
+msgid "Full Width"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Blog.php:107
+msgid "Comments"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Blog.php:108
+msgid "Turn on to display comments"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Blog.php:121
+msgid "Select Posts for hide Featues Images"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Color.php:21
+msgid "Color Attribute"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Color.php:24
+msgid "Change the default colors of your site."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Color.php:31
+msgid "Color Scheme Options"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Color.php:42
+msgid "Color Scheme Settings"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Color.php:53
+msgid "Set Primary Singal Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Color.php:55
+msgid "Select primary accent color."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Color.php:64
+msgid "Set Secondary Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Color.php:66
+msgid "Select secondary complementing color."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Color.php:75
+msgid "Title Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Color.php:77
+msgid "Select default Title(Headings) color."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Color.php:86
+msgid "Sub Title Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Color.php:88
+msgid "Select default Sub Title color."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Color.php:97
+msgid "Body Text Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Color.php:99
+msgid "Select default body text color."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Contact.php:21
+msgid "Contact"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Contact.php:29
+msgid "Address"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Contact.php:30
+msgid "1234 North Avenue Luke Lane, South Bend, IN 360001"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Contact.php:36
+msgid "Phone"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Contact.php:41
+msgid "+0123456789"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Contact.php:47
+msgid "Email"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Contact.php:49, ../umetric/inc/Redux_Framework/Options/Logo.php:293
+msgid "custom error message"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Contact.php:50
+msgid "support@example.com"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Footer.php:25, ../umetric/inc/Redux_Framework/Options/Footer.php:32, ../umetric/inc/Redux_Framework/Options/FourZeroFour.php:102
+msgid "Footer"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Footer.php:35, ../umetric/inc/Redux_Framework/Options/Footer.php:193, ../umetric/inc/Redux_Framework/Options/Footer.php:345
+msgid "This section contains options for footer."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Footer.php:40, ../umetric/inc/Redux_Framework/Options/Footer.php:50
+msgid "Footer Layout"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Footer.php:42, ../umetric/inc/Redux_Framework/Options/FourZeroFour.php:36, ../umetric/inc/Redux_Framework/Options/Header.php:49, ../umetric/inc/Redux_Framework/Options/Header.php:68, ../umetric/inc/Redux_Framework/Options/Header.php:126, ../umetric/inc/Redux_Framework/Options/Header.php:235, ../umetric/inc/Redux_Framework/Options/Header.php:768, ../umetric/inc/Redux_Framework/Options/Header.php:814
+msgid "Default"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Footer.php:43, ../umetric/inc/Redux_Framework/Options/FourZeroFour.php:37, ../umetric/inc/Redux_Framework/Options/Header.php:50, ../umetric/inc/Redux_Framework/Options/Header.php:815
+msgid "Custom"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Footer.php:51, ../umetric/inc/Redux_Framework/Options/Header.php:58
+msgid "Select the layout variation that you want to use for header layout."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Footer.php:53, ../umetric/inc/Redux_Framework/Options/FourZeroFour.php:48, ../umetric/inc/Redux_Framework/Options/Header.php:60
+msgid "Create"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Footer.php:53, ../umetric/inc/Redux_Framework/Options/FourZeroFour.php:48, ../umetric/inc/Redux_Framework/Options/Header.php:60
+msgid "New Layout"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Footer.php:61
+msgid "Footer Logo"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Footer.php:63
+msgid "Upload Footer Logo for your Website."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Footer.php:71
+msgid "Footer Background"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Footer.php:83, ../umetric/inc/Redux_Framework/Options/Footer.php:105
+msgid "Footer Text Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Footer.php:85
+msgid "Select this option for Footer Text Color."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Footer.php:96
+msgid "Footer Heading Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Footer.php:114, ../umetric/inc/Redux_Framework/Options/Footer.php:332
+msgid "Footer Link Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Footer.php:123
+msgid "Footer Set Option"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Footer.php:125
+msgid "Select this option for Background Type color and image."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Footer.php:137
+msgid "Footer Background Image"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Footer.php:140
+msgid "Upload Footer image for your Website. Otherwise site title will be displayed in place of Logo."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Footer.php:147
+msgid "Opacity Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Footer.php:151
+msgid "Select this option for Opacity Color."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Footer.php:162
+msgid "Background Gradient Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Footer.php:175
+msgid "Footer Background Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Footer.php:176
+msgid "Choose Footer Background Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Footer.php:190
+msgid "Footer Option"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Footer.php:198
+msgid "Display Footer"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Footer.php:199
+msgid "Display Footer On All Pages"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Footer.php:211
+msgid "Footer Layout Type"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Footer.php:213
+msgid "<br />Choose among these structures (1column, 2column and 3column) for your footer section.<br />To fill these column sections you should go to appearance > widget.<br />And add widgets as per your needs."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Footer.php:215
+msgid "Footer Layout 1"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Footer.php:216
+msgid "Footer Layout 2"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Footer.php:217
+msgid "Footer Layout 3"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Footer.php:218
+msgid "Footer Layout 4"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Footer.php:226
+msgid "Select 1 Footer Alignment"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Footer.php:239
+msgid "Select 2 Footer Alignment"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Footer.php:252
+msgid "Select 3 Footer Alignment"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Footer.php:265
+msgid "Select 4 Footer Alignment"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Footer.php:278
+msgid "Select 5 Footer Alignment"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Footer.php:292
+msgid "Footer Copyright"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Footer.php:299
+msgid "Display Footer Copyright"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Footer.php:300
+msgid "Display Footer Copyright On All page"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Footer.php:313
+msgid "Copyright Text"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Footer.php:314
+msgid "Copyright 2022 umetric All Rights Reserved."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Footer.php:321
+msgid "Change Footer Copyright Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Footer.php:342
+msgid "Top Footer Option"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Footer.php:351
+msgid "Display Top Footer"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Footer.php:352
+msgid "Display Top Footer On All Pages"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Footer.php:365
+msgid "Select Footer Background Style"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Footer.php:384, ../umetric/inc/Redux_Framework/Options/General.php:119
+msgid "upload image"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/FourZeroFour.php:28
+msgid "This section contains options for 404."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/FourZeroFour.php:34
+msgid "Page Layout"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/FourZeroFour.php:45
+msgid "404 Layout"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/FourZeroFour.php:46
+msgid "Select the layout variation that you want to use for 404 page."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/FourZeroFour.php:57
+msgid "404 Page Default Banner Image"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/FourZeroFour.php:67
+msgid "404 Page Title"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/FourZeroFour.php:75
+msgid "404 Page Description"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/FourZeroFour.php:83
+msgid "404 Page Button"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/FourZeroFour.php:84
+msgid "Back to Home"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/FourZeroFour.php:90, ../umetric/inc/Redux_Framework/Options/FourZeroFour.php:100
+msgid "Enable"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/FourZeroFour.php:91, ../umetric/inc/Redux_Framework/Options/FourZeroFour.php:101
+msgid "Disable"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/FourZeroFour.php:92, ../umetric/inc/Redux_Framework/Options/Header.php:25
+msgid "Header"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/FourZeroFour.php:93
+msgid "Enable / disable header on 404 page"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/FourZeroFour.php:103
+msgid "Enable / disable footer on 404 page"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/General.php:25
+msgid "General"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/General.php:32
+msgid "Body Layout"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/General.php:41
+msgid "Layout Options"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/General.php:42
+msgid "This Section Contain Option For Your Site Layout."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/General.php:55
+msgid "<p>Choose From Above Suitable Option For Your Site.</p>"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/General.php:58
+msgid "Boxed"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/General.php:74
+msgid "This Section Contain Option For Your Grid Container Width."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/General.php:75
+msgid "Grid Container Width"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/General.php:81
+msgid "<p>Adjust Your Site Container Width Wtih Help Of Above Opiton.</p>"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/General.php:93
+msgid "<p>This Section Contain Optin For Your Page Body Background.</p>"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/General.php:94
+msgid "Body Background"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/General.php:106
+msgid "Select Your Page Background Style"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/General.php:152, ../umetric/inc/Redux_Framework/Options/General.php:161
+msgid "Favicon"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/General.php:162
+msgid "Upload .ico File For Favicon Icon"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/General.php:183
+msgid "Back To Top"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/General.php:192
+msgid "Back To Top Options"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:32
+msgid "Layout"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:47, ../umetric/inc/Redux_Framework/Options/Header.php:57
+msgid "Header Layout"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:66
+msgid "Header Layout Position"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:69
+msgid "Horizontal"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:70
+msgid "Vertical"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:82
+msgid "Vertical header width"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:92
+msgid "Menu Style"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:93
+msgid "Select the design variation that you want to use for site menu."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:112
+msgid "Header container"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:114
+msgid "Full width"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:115
+msgid "Container"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:124
+msgid "Header Position"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:127
+msgid "Over"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:136
+msgid "Header Expanded / Collapsed"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:137
+msgid "Select expanded / collapsed vertical header"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:140
+msgid "Expanded"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:141
+msgid "Collapsed"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:143
+msgid "expanded"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:149
+msgid "Header Background Type"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:152, ../umetric/inc/Redux_Framework/Options/Header.php:275, ../umetric/inc/Redux_Framework/Options/Header.php:395, ../umetric/inc/Redux_Framework/Options/Loader.php:44
+msgid "none"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:153, ../umetric/inc/Redux_Framework/Options/Header.php:276, ../umetric/inc/Redux_Framework/Options/Header.php:307, ../umetric/inc/Redux_Framework/Options/Header.php:396, ../umetric/inc/Redux_Framework/Options/Header.php:770, ../umetric/inc/Redux_Framework/Options/Loader.php:45, ../umetric/inc/Redux_Framework/Options/Logo.php:31, ../umetric/inc/Redux_Framework/Options/Logo.php:43, ../umetric/inc/Redux_Framework/Options/Logo.php:145, ../umetric/inc/Redux_Framework/Options/Logo.php:157
+msgid "Image"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:154, ../umetric/inc/Redux_Framework/Options/Header.php:769
+msgid "Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:155, ../umetric/inc/Redux_Framework/Options/Header.php:278, ../umetric/inc/Redux_Framework/Options/Header.php:398, ../umetric/inc/Redux_Framework/Options/Header.php:771
+msgid "Transparent"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:157, ../umetric/inc/Redux_Framework/Options/Header.php:281, ../umetric/inc/Redux_Framework/Options/Header.php:400, ../umetric/inc/Redux_Framework/Options/Typography.php:33
+msgid "0"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:165
+msgid "Header background image"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:177
+msgid "Set Background Header Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:193
+msgid "Top Header"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:196
+msgid "This section contains options for Top header."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:202, ../umetric/inc/Redux_Framework/Options/Header.php:360, ../umetric/inc/Redux_Framework/Options/Logo.php:130
+msgid "Opps ! Not Available..."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:203, ../umetric/inc/Redux_Framework/Options/Header.php:361, ../umetric/inc/Redux_Framework/Options/Logo.php:131
+msgid " This options only available with standard menu type."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:204, ../umetric/inc/Redux_Framework/Options/Header.php:362, ../umetric/inc/Redux_Framework/Options/Logo.php:132
+msgid "We will come back soon with this options in vertical menu."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:214
+msgid "Top Header Setting"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:223
+msgid "Enable Top Header"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:239
+msgid "Style 1"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:243
+msgid "Style 2"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:248
+msgid "Style 3"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:252
+msgid "Style 4"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:256
+msgid "Style 5"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:266, ../umetric/inc/Redux_Framework/Options/Loader.php:49, ../umetric/inc/Redux_Framework/Options/Logo.php:35, ../umetric/inc/Redux_Framework/Options/Logo.php:149
+msgid "1"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:272
+msgid "Top Header Background Type"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:277, ../umetric/inc/Redux_Framework/Options/Header.php:397
+msgid "color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:292
+msgid "Top Header Background Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:321
+msgid "Top Header Text Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:334
+msgid "Top Header Text Hover Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:350
+msgid "Sticky Header"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:354
+msgid "This section contains options for Stikcy header."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:372
+msgid "Sticky Header Settings"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:383
+msgid "Enable Sticky Header"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:392
+msgid "Sticky Header Background Type"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:413
+msgid "Sticky Header Background Image"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:426
+msgid "Sticky Header Background Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:455
+msgid "Set Menu Text Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:464
+msgid "Active Menu Text Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:472
+msgid "Set Menu Hover Text Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:481
+msgid "Active menu background color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:490
+msgid "Click effect color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:491
+msgid "Choose on click effect color for vertical menu"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:514
+msgid "Set Sub Menu Text Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:522
+msgid "Active Submenu Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:531
+msgid "Set Sub Menu Hover Text Background Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:540
+msgid "Set Sub Menu Hover Text Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:548
+msgid "Set Sub Menu Background Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:570
+msgid "Set Toggle Menu Text Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:578
+msgid "Set Toggle Menu Background Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:600
+msgid "Set Sticky Menu Color Settings"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:609
+msgid "Set Hover Sticky Menu Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:616
+msgid "Set Sticky Toggle Menu Text Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:624
+msgid "Set Sticky Toggle Menu Background Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:638
+msgid "Header Button"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:642
+msgid "This section contains options for button in header."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:648
+msgid "Login/CTA Button"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:649
+msgid "Turn on to display the Login and CTA button in top header."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:660
+msgid "Button Title"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:663
+msgid "Change Title (e.g.Download)."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:668
+msgid "Button Link"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:670
+msgid "Add button link."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:676
+msgid "Header Button Colors"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:687
+msgid "Header Button Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:689
+msgid "Choose Header Button Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:697
+msgid "Header Button Hover Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:699
+msgid "Choose Header Hover Button Hover Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:707
+msgid "Header Button Text Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:709
+msgid "Choose Header Button Text Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:717
+msgid "Header Button Hover Text Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:719
+msgid "Choose Header Button Text Hover Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:727
+msgid "Search Button"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:728
+msgid "Turn on to display Search Button in header."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:745
+msgid "This section contains options for side area button in header."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:751
+msgid "Side Area (Sliding Panel)"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:752
+msgid "Set option for Sliding right side panel."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:765
+msgid "Background"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:766
+msgid "Select the variation for Sidearea background"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:773, ../umetric/inc/Redux_Framework/Options/Header.php:817
+msgid "default"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:789
+msgid "Upload Image"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:792
+msgid "Upload background image for sidearea."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:800
+msgid "Adjust sidearea width"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:801
+msgid "Choose Width, and/or unit."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:802
+msgid "Sidearea Width."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:811
+msgid "Button color options"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:812
+msgid "Select text normal / hover color ."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:823
+msgid "Open button color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:824
+msgid "Select color for normal / hover."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:825
+msgid "Set open button color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:833
+msgid "Set open button hover color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:842
+msgid "Open button line color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:843
+msgid "Select normal / hover color of open button lines."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:844, ../umetric/inc/Redux_Framework/Options/Header.php:882
+msgid "Set open button line color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:852
+msgid "Set open button line hover color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:861
+msgid "Close button color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:862
+msgid "Select normal / hover color of close button inside sidearea."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:863
+msgid "Set close button color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:871
+msgid "Set close button hover color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:880
+msgid "Close button line color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:881
+msgid "Select normal / hover color of close button lines."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Header.php:890
+msgid "Set close button line hover color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Loader.php:20
+msgid "Loader"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Loader.php:29
+msgid "Loader Options"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Loader.php:40, ../umetric/inc/Redux_Framework/Options/Loader.php:41, ../umetric/inc/Redux_Framework/Options/Loader.php:42, ../umetric/inc/Redux_Framework/Options/Logo.php:29, ../umetric/inc/Redux_Framework/Options/Logo.php:165
+msgid ""
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Loader.php:46, ../umetric/inc/Redux_Framework/Options/Logo.php:32, ../umetric/inc/Redux_Framework/Options/Logo.php:146
+msgid "text"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Loader.php:57
+msgid "Upload Loader Image"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Loader.php:78
+msgid "Loader (Width/Height) Option"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Loader.php:79, ../umetric/inc/Redux_Framework/Options/Logo.php:64, ../umetric/inc/Redux_Framework/Options/Logo.php:177
+msgid "Allow your users to choose width, height, and/or unit."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Loader.php:80, ../umetric/inc/Redux_Framework/Options/Logo.php:65, ../umetric/inc/Redux_Framework/Options/Logo.php:178, ../umetric/inc/Redux_Framework/Options/Logo.php:283
+msgid "You can enable or disable any piece of this field. Width, Height, or Units."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Loader.php:91
+msgid "Enter Loader Text"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Loader.php:92
+msgid "Loading...."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Loader.php:93
+msgid "Enter Text"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Loader.php:103, ../umetric/inc/Redux_Framework/Options/Logo.php:88, ../umetric/inc/Redux_Framework/Options/Logo.php:202, ../umetric/inc/Redux_Framework/Options/Logo.php:299
+msgid "Select Html Tag"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Loader.php:104
+msgid "Select Tag For Loader Text."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Loader.php:106, ../umetric/inc/Redux_Framework/Options/Logo.php:91, ../umetric/inc/Redux_Framework/Options/Logo.php:205, ../umetric/inc/Redux_Framework/Options/Logo.php:302
+msgid "h1"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Loader.php:107, ../umetric/inc/Redux_Framework/Options/Loader.php:119, ../umetric/inc/Redux_Framework/Options/Logo.php:92, ../umetric/inc/Redux_Framework/Options/Logo.php:206, ../umetric/inc/Redux_Framework/Options/Logo.php:303
+msgid "h2"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Loader.php:108, ../umetric/inc/Redux_Framework/Options/Logo.php:93, ../umetric/inc/Redux_Framework/Options/Logo.php:207, ../umetric/inc/Redux_Framework/Options/Logo.php:304
+msgid "h3"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Loader.php:109, ../umetric/inc/Redux_Framework/Options/Logo.php:94, ../umetric/inc/Redux_Framework/Options/Logo.php:208, ../umetric/inc/Redux_Framework/Options/Logo.php:305
+msgid "h4"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Loader.php:110, ../umetric/inc/Redux_Framework/Options/Logo.php:95, ../umetric/inc/Redux_Framework/Options/Logo.php:209, ../umetric/inc/Redux_Framework/Options/Logo.php:306
+msgid "h5"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Loader.php:111, ../umetric/inc/Redux_Framework/Options/Logo.php:96, ../umetric/inc/Redux_Framework/Options/Logo.php:210, ../umetric/inc/Redux_Framework/Options/Logo.php:307
+msgid "h6"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Loader.php:124
+msgid "Background Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Loader.php:125
+msgid "Choose Background Color For  Loader."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Loader.php:141
+msgid "Choose Color Loader Text"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Loader.php:142
+msgid "Choose Color For Loader Text ."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Logo.php:20, ../umetric/inc/Redux_Framework/Options/Logo.php:268
+msgid "Logo"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Logo.php:28
+msgid "Header Logo Type"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Logo.php:63
+msgid "Header Logo (Width/Height) Option"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Logo.php:77
+msgid "Header Logo Text"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Logo.php:89, ../umetric/inc/Redux_Framework/Options/Logo.php:203, ../umetric/inc/Redux_Framework/Options/Logo.php:300
+msgid "Select Tag For Text."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Logo.php:104, ../umetric/inc/Redux_Framework/Options/Logo.php:218, ../umetric/inc/Redux_Framework/Options/Logo.php:315
+msgid "2"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Logo.php:112, ../umetric/inc/Redux_Framework/Options/Logo.php:323
+msgid "Set Header Logo Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Logo.php:113, ../umetric/inc/Redux_Framework/Options/Logo.php:324
+msgid "Choose Header Logo Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Logo.php:143
+msgid "Stikcy Header Logo Type"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Logo.php:176
+msgid "Stikcy Header Logo (Width/Height) Option"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Logo.php:190
+msgid "Stikcy Header Logo Text"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Logo.php:226
+msgid "Set Stikcy Header Logo Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Logo.php:227
+msgid "Choose Stikcy Header Logo Color"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Logo.php:241
+msgid "Use different logo for vertical menu ?"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Logo.php:242
+msgid "Select option for set different logo for vertical menu"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Logo.php:248
+msgid "no"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Logo.php:254
+msgid "Select Logo Type"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Logo.php:255
+msgid "Select either Text or image for your Logo."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Logo.php:272
+msgid "Upload Logo image for your website vertical menu. Otherwise site title will be displayed in place of Logo."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Logo.php:280
+msgid "Logo (Width/Height) Option"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Logo.php:282
+msgid "Allows you to choose width, height, and/or unit."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Logo.php:290
+msgid "Logo Text"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Logo.php:291
+msgid "Enter the text to be used instead of the logo image"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Page.php:20
+msgid "Page Settings"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Page.php:28
+msgid "Search page Setting"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Page.php:29
+msgid "<br />Choose among these structures (Right Sidebar, Left Sidebar and 1column) for your Search page.<br />To filling these column sections you should go to appearance > widget.<br />And put every widget that you want in these sections."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/SocialMedia.php:20
+msgid "Social Media"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/SocialMedia.php:28
+msgid "Social Media Option"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/SocialMedia.php:29
+msgid "Enter social media url."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Typography.php:23
+msgid "Typography"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Typography.php:26
+msgid "This section contains typography related options."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Typography.php:32
+msgid "Do you want to change fonts?"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Typography.php:41
+msgid "Body Font"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Typography.php:42, ../umetric/inc/Redux_Framework/Options/Typography.php:62, ../umetric/inc/Redux_Framework/Options/Typography.php:81, ../umetric/inc/Redux_Framework/Options/Typography.php:100, ../umetric/inc/Redux_Framework/Options/Typography.php:118, ../umetric/inc/Redux_Framework/Options/Typography.php:136, ../umetric/inc/Redux_Framework/Options/Typography.php:154
+msgid "Select the font."
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Typography.php:53
+msgid "Poppins"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Typography.php:61
+msgid "H1 Font"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Typography.php:72, ../umetric/inc/Redux_Framework/Options/Typography.php:91, ../umetric/inc/Redux_Framework/Options/Typography.php:110, ../umetric/inc/Redux_Framework/Options/Typography.php:128, ../umetric/inc/Redux_Framework/Options/Typography.php:146, ../umetric/inc/Redux_Framework/Options/Typography.php:164
+msgid "PT+Sans"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Typography.php:80
+msgid "H2 Font"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Typography.php:99
+msgid "H3 Font"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Typography.php:117
+msgid "H4 Font"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Typography.php:135
+msgid "H5 Font"
+msgstr ""
+
+#: ../umetric/inc/Redux_Framework/Options/Typography.php:153
+msgid "H6 Font"
+msgstr ""
+
+#: ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/Importer.php:55
+msgid "The XMLReader class is missing! Please install the XMLReader PHP extension on your server"
+msgstr ""
+
+#: ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/Importer.php:68
+msgid "Could not open the XML file for parsing!"
+msgstr ""
+
+#: ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/Importer.php:248
+msgid "Content import start error: "
+msgstr ""
+
+#: ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/Importer.php:280, ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:173, ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:291, ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:375
+msgid "This WXR file (version %s) is newer than the importer (version %s) and may not be supported. Please consider updating."
+msgstr ""
+
+#: ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/Importer.php:504
+msgid "New AJAX call!"
+msgstr ""
+
+#: ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:135
+msgid "Could not open the file for parsing"
+msgstr ""
+
+#: ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:525
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:588
+msgid "Invalid author mapping"
+msgstr ""
+
+#: ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:689
+msgid "Cannot import auto-draft posts"
+msgstr ""
+
+#: ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:781
+msgid "Failed to import \"%s\": Invalid post type %s"
+msgstr ""
+
+#: ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:791
+msgid "%s \"%s\" already exists."
+msgstr ""
+
+#: ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:869
+msgid "Skipping attachment \"%s\", fetching attachments disabled"
+msgstr ""
+
+#: ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:883
+msgid "Failed to import \"%s\" (%s)"
+msgstr ""
+
+#: ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:915, ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1833
+msgid "Imported \"%s\" (%s)"
+msgstr ""
+
+#: ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:920
+msgid "Post %d remapped to %d"
+msgstr ""
+
+#: ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:960
+msgid "Failed to import term: %s - %s"
+msgstr ""
+
+#: ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1105
+msgid "Invalid file type"
+msgstr ""
+
+#: ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1604
+msgid "Failed to import user \"%s\""
+msgstr ""
+
+#: ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1625
+msgid "Imported user \"%s\""
+msgstr ""
+
+#: ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1629
+msgid "User %d remapped to %d"
+msgstr ""
+
+#: ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1794
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1838
+msgid "Term %d remapped to %d"
+msgstr ""
+
+#: ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1906
+msgid "Meta for term_id %d : %s => %s ; successfully added!"
+msgstr ""
+
+#: ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1897
+msgid "Failed to add metakey: %s, metavalue: %s to term_id: %d"
+msgstr ""
+
+#: ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1958
+msgid "Remote server returned %1$d %2$s for %3$s"
+msgstr ""
+
+#: ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1980
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1986
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2011
+msgid "Running post-processing for post %d"
+msgstr ""
+
+#: ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2024
+msgid "Could not find the post parent for \"%s\" (post #%d)"
+msgstr ""
+
+#: ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2029
+msgid "Post %d was imported with parent %d, but could not be found"
+msgstr ""
+
+#: ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2043
+msgid "Could not find the author for \"%s\" (post #%d)"
+msgstr ""
+
+#: ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2048
+msgid "Post %d was imported with author \"%s\", but could not be found"
+msgstr ""
+
+#: ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2074
+msgid "Post %d was marked for post-processing, but none was required."
+msgstr ""
+
+#: ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2085
+msgid "Could not update \"%s\" (post #%d) with mapped data"
+msgstr ""
+
+#: ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2130
+msgid "Could not find the menu object for \"%s\" (post #%d)"
+msgstr ""
+
+#: ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2135
+msgid "Post %d was imported with object \"%d\" of type \"%s\", but could not be found"
+msgstr ""
+
+#: ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2157
+msgid "Could not find the comment parent for comment #%d"
+msgstr ""
+
+#: ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2161
+msgid "Comment %d was imported with parent %d, but could not be found"
+msgstr ""
+
+#: ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2175
+msgid "Could not find the author for comment #%d"
+msgstr ""
+
+#: ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2179
+msgid "Comment %d was imported with author %d, but could not be found"
+msgstr ""
+
+#: ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2196
+msgid "Could not update comment #%d with mapped data"
+msgstr ""
+
+#: ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2227
+msgid "Faulty term_id provided in terms-to-be-remapped array %s"
+msgstr ""
+
+#: ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2237
+msgid "No taxonomy provided in terms-to-be-remapped array for term #%d"
+msgstr ""
+
+#: ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2247
+msgid "No parent_slug identified in remapping-array for term: %d"
+msgstr ""
+
+#: ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2255
+msgid "The term(%d)\"s parent_slug (%s) is not found in the remapping-array."
+msgstr ""
+
+#: ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2269
+msgid "No data returned by get_term_by for term_id #%d"
+msgstr ""
+
+#: ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2288
+msgid "Could not update \"%s\" (term #%d) with mapped data"
+msgstr ""
+
+#: ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2298
+msgid "Term %d was successfully updated with parent %d"
+msgstr ""
+
+#: ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2333
+msgid "Starting remapping of featured images"
+msgstr ""
+
+#: ../umetric/inc/Merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2342
+msgid "Remapping featured image ID %d to new ID %d for post ID %d"
+msgstr ""

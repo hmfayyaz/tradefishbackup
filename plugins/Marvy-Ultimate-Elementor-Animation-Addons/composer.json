@@ -1,0 +1,17 @@
+{
+    "name": "iqonic/marvy-animation-addons",
+    "authors": [
+        {
+            "name": "iqonic",
+            "email": "hello@iqonic.com"
+        }
+    ],
+    "require": {},
+    "license": "GPL-3.0",
+    "autoload": {
+        "psr-4": {"MarvyElementor\\": "./elementor"},
+        "files": [
+            "./utils/helpers-pro.php"
+        ]
+    }
+}

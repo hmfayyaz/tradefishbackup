@@ -1,0 +1,37 @@
+/*--------------------------------------------------------------
+                               Team
+--------------------------------------------------------------*/
+/*Style 6*/
+.iq-team-style-6 .iq-team-blog img{border-radius: 10px; width: 100%;}
+.iq-team-style-6 .iq-team-blog { position: relative; overflow: hidden; }
+.iq-team-style-6 .iq-team-blog:hover .team-blog:before { opacity: 1; }
+.iq-team-style-6, .iq-team-style-6 .iq-team-blog .team-blog:before, .iq-team-style-6 .iq-team-blog:hover .team-blog:before, .iq-team-style-6 .iq-team-blog:hover .iq-team-description, .iq-team-style-6 .iq-team-blog:hover .iq-team-social, .iq-team-style-6 .iq-team-blog .iq-team-social { -webkit-transition: all 0.5s ease-out 0s; -moz-transition: all 0.5s ease-out 0s; -ms-transition: all 0.5s ease-out 0s; -o-transition: all 0.5s ease-out 0s; transition: all 0.5s ease-out 0s; }
+.iq-team-style-6 .iq-team-description h5 { position: absolute; color: var(--white-color); left: -50%; bottom: 20%; opacity: 0; z-index: 9; transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; }
+.iq-team-style-6 .iq-team-blog:hover .iq-team-description h5 { opacity: 1; left: 5%; }
+.iq-team-style-6 .iq-team-description p { margin: 0; position: absolute; color: var(--white-color); left: -50%; bottom: 10%; opacity: 0; z-index: 9; transition: all 0.8s ease-in-out; transition: all 0.8s ease-in-out; -moz-transition: all 0.8s ease-in-out; -ms-transition: all 0.8s ease-in-out; -o-transition: all 0.8s ease-in-out; -webkit-transition: all 0.8s ease-in-out; }
+.iq-team-style-6 .iq-team-blog:hover .iq-team-description p { opacity: 1; left: 5%; }
+.iq-team-style-6 .iq-team-description .line { background: var(--white-color); height: 1px; width: 0; position: absolute; left: 0; bottom: 30%; z-index: 9; opacity: 0; transition: all 0.8s ease-in-out; transition: all 0.8s ease-in-out; -moz-transition: all 0.8s ease-in-out; -ms-transition: all 0.8s ease-in-out; -o-transition: all 0.8s ease-in-out; -webkit-transition: all 0.8s ease-in-out; }
+.iq-team-style-6 .iq-team-blog:hover .iq-team-description .line { opacity: 1; width: 150px; }
+.iq-team-style-6 .iq-team-blog .iq-team-social { position: absolute; right: -50%; bottom: 5%; opacity: 0; z-index: 9; }
+.iq-team-style-6 .iq-team-blog:hover .iq-team-social { opacity: 1; right: 5%; }
+.iq-team-style-6 .iq-team-blog .iq-team-social ul { width: 100%; display: inline-block; margin: 0; padding: 0; }
+.iq-team-style-6 .iq-team-blog .iq-team-social ul li { display: inline-block; }
+.iq-team-style-6 .iq-team-blog .iq-team-social ul li a { color: var(--white-color); padding: 10px; }
+.iq-team-style-6 .iq-team-blog .iq-team-social ul li a:hover { color: var(--primary-color); }
+.iq-team-style-6 .iq-team-blog .iq-team-social ul li a i { font-size: var(--font-size-20); display: inline-block; float: none; text-align: center; background: transparent; }
+.iq-team-style-6 .iq-team-img:before { position: absolute; top: 0; left: 0;border-radius: 10px; height: 100%; width: 100%; content: ""; opacity: 0; z-index: 1; background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 1) 100%); /* FF3.6-15 */ background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 1) 100%); /* Chrome10-25,Safari5.1-6 */ background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00f0f9ff', endColorstr='#3346d3', GradientType=0); /* IE6-9 */ -webkit-transition: all 0.5s ease-out 0s; -moz-transition: all 0.5s ease-out 0s; -ms-transition: all 0.5s ease-out 0s; -o-transition: all 0.5s ease-out 0s; transition: all 0.5s ease-out 0s; }
+.iq-team-style-6 .iq-team-blog:hover .iq-team-img:before { opacity: 1; }
+
+/*======================
+grid
+=============================*/
+.iq-team-style-grid .iq-team-blog{
+  margin-bottom: 32px;
+}
+
+/*----------------------------------------
+  Responsive
+----------------------------------------*/
+@media (max-width: 1024px){
+    .iq-team-slider { margin: 0; }
+}

@@ -1,0 +1,95 @@
+/*--------------------------------------------------------------
+                               Count Down
+--------------------------------------------------------------*/
+.iq-count-down .iq-data-countdown-timer.size_sm { 
+  font-size: var(--font-size-30); 
+  color: var(--secondary-color); 
+}
+
+.iq-count-down .iq-data-countdown-timer .timerDisplay .displaySection { 
+  display: inline-block; 
+  margin: 0 64px; 
+  vertical-align: middle; 
+  text-align: center; 
+  position: relative; 
+}
+
+.iq-count-down .iq-data-countdown-timer .timerDisplay .displaySection::after { 
+  content: ":"; 
+  position: absolute; 
+  right: -64px; 
+  top: 50%; 
+  color: var(--secondary-color); 
+  font-size: var(--font-size-30); 
+  font-weight: var(--font-weight-bold);
+  -moz-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); 
+}
+
+.iq-count-down .iq-data-countdown-timer .timerDisplay .displaySection:last-child::after { 
+  display: none; 
+}
+
+.iq-count-down .iq-data-countdown-timer .timerDisplay .displaySection .numberDisplay { 
+  display: block; 
+  color: var(--secondary-color); 
+  font-size: var(--font-size-h2);
+  line-height: var(--font-line-height-h2); 
+  font-weight: var(--font-weight-medium); 
+  margin-bottom: 8px; 
+}
+
+.iq-count-down .iq-data-countdown-timer .timerDisplay .displaySection .periodDisplay{
+  font-size: var(--font-size-h5);
+  line-height: var(--font-line-height-h5);
+}
+
+.iq-count-down .iq-data-countdown-timer .timerDisplay .displaySection .periodDisplay { 
+  display: block; 
+}
+
+/*----------------------------------------
+  Responsive
+----------------------------------------*/
+
+@media (max-width: 1024px){
+  .iq-count-down .iq-data-countdown-timer .timerDisplay .displaySection { 
+    margin-bottom: 30px; 
+  }
+}
+
+@media (max-width: 991px){
+  .iq-count-down .iq-data-countdown-timer .timerDisplay .displaySection{
+    margin: 0 45px 30px;
+  }
+
+  .iq-count-down .iq-data-countdown-timer .timerDisplay .displaySection::after{
+    right: -45px;
+  }
+}
+
+@media (max-width: 767px){
+  .iq-count-down .iq-data-countdown-timer .timerDisplay .displaySection {
+    display: block;
+    margin: 0 0 50px;
+  }
+
+  .iq-count-down .iq-data-countdown-timer .timerDisplay .displaySection::after{
+    top: auto;
+    right: auto;
+    left: 51%;
+    bottom: -50px;
+    -moz-transform: translate(-50%,0) rotate(90deg);
+    -webkit-transform: translate(-50%,0) rotate(90deg);
+    -o-transform: translate(-50%,0) rotate(90deg);
+    -ms-transform: translate(-50%,0) rotate(90deg);
+    transform: translate(-50%,0) rotate(90deg);
+  }
+
+  .iq-count-down .iq-data-countdown-timer .timerDisplay .displaySection:last-child{
+    margin-bottom: 0;
+  }
+}

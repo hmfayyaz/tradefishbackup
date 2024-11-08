@@ -1,0 +1,162 @@
+:root {
+    --icon-container-size: 30px;
+    --icon-size: 20px;
+    --icon-padding: 5px;
+}
+
+.iqonic-social-position-horizontal .umetric-social-item {
+    display: inline-block;
+    word-break: break-word;
+}
+
+.umetric-share {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.umetric-social-icons .umetric-social-item .umetric-share {
+    /* font-size: var(--icon-size,15px); */
+    line-height: var(--icon-container-size, 15px);
+    width: var(--icon-container-size, 15px);
+    height: var(--icon-container-size, 15px);
+    color: var(--white-color);
+}
+
+.umetric-social-icons .umetric-social-item .umetric-share {
+    font-size: var(--icon-size, 15px);
+}
+
+.umetric-social-icons .umetric-social-item .umetric-share svg {
+    width: var(--icon-size, 15px);
+    height: var(--icon-size, 15px);
+}
+
+.iqonic-shape-rounded .umetric-share {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+}
+
+.iqonic-shape-square .umetric-share {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -o-border-radius: 0;
+    -ms-border-radius: 0;
+}
+
+.umetric-social-names .umetric-social-item:last-child {
+    padding: 0;
+}
+
+.iqonic-shape-circle .umetric-share {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+}
+
+.umetric-social-names .umetric-social-item {
+    padding-right: 10px;
+}
+
+.umetric-socials-share.umetric-social-icons-names .umetric-social-item a svg {
+    margin-right: 10px;
+}
+
+.umetric-social-icons .umetric-social-item .umetric-share, .iqonic-shape-circle .umetric-share {
+    position: relative;
+}
+
+.iqonic-shape-circle .umetric-share {
+    line-height: 38px;
+    width: 38px;
+    height: 38px;
+    font-size: var(--font-size-xs);
+}
+
+svg.base-circle.animated {
+    width: 38px;
+    height: 38px;
+    position: absolute;
+    z-index: 99;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+svg.base-circle .c1 {
+    stroke-dasharray: 0 144;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+    opacity: 0;
+}
+
+svg.base-circle:hover .c1 {
+    stroke-dasharray: 144 144;
+    opacity: 1;
+    -webkit-transition-property: stroke-dasharray;
+    transition-property: stroke-dasharray;
+}
+
+/* social media */
+.writing-mode-text {
+    writing-mode: vertical-rl;
+    transform: scale(-1);
+    margin-top: 20px;
+}
+
+.writing-mode-rl .umetric-social-item {
+    writing-mode: vertical-rl;
+    transform: scale(-1);
+    margin-top: 5px;
+}
+
+.writing-mode-rl .umetric-social-names .umetric-social-item {
+    padding-right: 0;
+}
+
+.writing-mode-rl .umetric-share {
+    width: 38px;
+    height: 38px;
+    font-size: var(--font-size-xs);
+}
+
+/* social media  svg*/
+svg.base-circle.animated {
+    width: 38px;
+    height: 38px;
+    position: absolute;
+    z-index: 99;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+svg.base-circle .c1 {
+    stroke-dasharray: 0 144;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+    opacity: 0;
+}
+
+svg.base-circle:hover .c1 {
+    stroke-dasharray: 144 144;
+    opacity: 1;
+    -webkit-transition-property: stroke-dasharray;
+    transition-property: stroke-dasharray;
+}

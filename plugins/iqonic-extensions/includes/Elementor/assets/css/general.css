@@ -1,0 +1,141 @@
+:root {
+  --primary-color: #0041EC;
+  --secondary-color: #071c35;
+  --white-color:#ffffff;
+  --white-light-color:#f9fbff;
+  --gray-color: #6f6f6f;
+  --title-color:#000000;
+  --sub-title-color:#0041EC;
+  --body-text:#797979;
+  --ver-menu-back:rgba(67, 126 ,235 , 0.08);
+}
+
+
+/*===============================
+list
+=========================================*/
+ul,ol{
+  list-style-position: inside;
+}
+
+/*--------------------------------------------------------------
+            Contact Form
+--------------------------------------------------------------*/
+.wpcf7-response-output.wpcf7-validation-errors, div.wpcf7-mail-sent-ng, div.wpcf7-aborted { position: relative; bottom: 0; left: 0; color: red; border: none; padding: 0; margin: 15px 0; }
+.contact-form .cfield { position: relative; width: 100%; display: inline-block; }
+.contact-form .cfield input[type=submit] { margin-top: 15px; }
+.contact-form .cfield input { position: relative; width: 100%; margin-bottom: 15px; background: var(--white-color); -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; padding-left: 15px; height: 55px; line-height: 55px; clear: both; border: 1px solid #eff1fe; }
+.contact-form .cfield input:focus, .contact-form .cfield.textarea textarea:focus { border: 1px solid var(--primary-color); box-shadow: none; outline: none; }
+.contact-form .cfield textarea { margin-bottom: 15px; width: 100%; float: left; color: var(--body-text); background: var(--white-color); border: 1px solid #eff1fe; border-radius: 4px; padding: 15px 0 0 20px; resize: none; }
+.contact-form .cfield .wpcf7-not-valid { border: 1px solid #f00; }
+.contact-form .ajax-loader { margin: 32px 0 0 5px; }
+
+/*style 2*/
+.iq-contactform-2  .iq-title-box.text-center { margin-bottom: 30px }
+.iq-contactform-2 { padding: 45px; background: #f7f7f9; }
+.iq-contactform-2 h2 { text-align: center; }
+.iq-contactform-2 input:hover, .iq-contactform-2 input[type=text]:hover, .iq-contactform-2 textarea:hover { border: 1px solid var(--primary-color); }
+.iq-contactform-2  .button { cursor: pointer; margin-top: 15px; }
+.iq-contactform-2 p { margin-bottom: 0; }
+
+/*style 3*/
+.iq-contactform-3 .cfield textarea { height: 300px; }
+
+
+.banner-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  height: 100%;
+}
+
+/*--------------------------------------------------------------
+        Newsletter
+--------------------------------------------------------------*/
+
+/*style 1*/
+.iq-subscribe-style-1 { display: flex; flex-direction: row; align-items: stretch; }
+.iq-subscribe-style-1 input[type=email] { margin: 0 15px 0 0; width: 80%; }
+.iq-subscribe-style-1  [type=submit] { position: relative; padding: 10px 30px; }
+
+/*style 2*/
+.iq-subscribe-style-2 { position: relative; }
+.iq-subscribe-style-2 input[type=email] { margin: 0 15px 0 0; width: 100%; }
+.iq-subscribe-style-2 [type=submit] { position: absolute; right: 0; top: 0; padding: 10px 30px; }
+
+/*style 3*/
+.iq-subscribe-style-3 { position: relative; }
+.iq-subscribe-style-3 input[type=email] { margin: 0 15px 0 0; width: 100%; border-radius: 0; }
+.iq-subscribe-style-3 [type=submit] { position: absolute; right: 0; top: 0; padding: 10px 30px; border-radius: 0; }
+
+/*style 4*/
+.iq-subscribe-style-4 { position: relative; text-align: center; }
+.iq-subscribe-style-4 input[type=email] { margin: 0 0 30px 0; width: 100%; }
+.iq-subscribe-style-4 [type=submit] i { margin-left: 15px; }
+
+/*style 5*/
+.iq-subscribe-style-5 { position: relative; }
+.iq-subscribe-style-5 input[type=email] { margin: 0; width: 100%; border-radius: 0; background: transparent; }
+.iq-subscribe-style-5 [type=submit] { position: absolute; right: 0; top: 0; padding: 10px 30px; border-radius: 0; }
+
+/*style 6*/
+.iq-subscribe-style-6 { position: relative; }
+.iq-subscribe-style-6 input[type=email] { margin: 0; width: 100%; border-radius: 0; background: transparent; padding: 0; border: none; border-bottom: 2px solid var(--body-text); }
+.iq-subscribe-style-6 [type=submit] { position: absolute; right: 0; top: 0; padding: 0; border-radius: 0; background: transparent; color: var(--body-text); font-size: var(--font-size-24); }
+
+/*style 7*/
+.iq-subscribe-style-7 { position: relative; }
+.iq-subscribe-style-7 input[type=email] { margin: 0 15px 0 0; width: 100%; }
+.iq-subscribe-style-7 [type=submit] { position: absolute; right: 0; top: 0; padding: 10px 30px; border-top-left-radius: 0; border-bottom-left-radius: 0; }
+
+/*style 8*/
+.iq-subscribe-style-8 { position: relative; }
+.iq-subscribe-style-8 input[type=email] { margin: 0; width: 100%; border-radius: 5px; background: transparent; border-color: var(--body-text); }
+.iq-subscribe-style-8 [type=submit] { position: absolute; right: 0; top: 0; padding: 10px 30px; border-radius: 5px; border-top-left-radius: 0; border-bottom-left-radius: 0; }
+
+
+/*----------------------------------------
+Responsive
+----------------------------------------*/
+
+@media(max-width: 767px){
+  h2 { font-size: var(--font-size-h4); }
+  table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>td:first-child:before, table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>th:first-child:before, table.dataTable.dtr-inline.collapsed>tbody>tr.parent>td:first-child:before, table.dataTable.dtr-inline.collapsed>tbody>tr.parent>th:first-child:before { left: 8px !important }
+  .iq-subscribe-style-1 { display: block; text-align: center; }
+}
+
+@media(max-width: 479px){
+  /*contact Form*/
+  .iq-contactform-2 { padding: 30px; }
+}
+
+/*=========================================
+graphina table
+==============================================*/
+.border-last .graphina-table-body tr:last-child td{
+  border-bottom: none !important;
+}
+
+/* siderbar */
+.iqonic-custom-layouts {
+  background: var(--white);
+  box-shadow: var(--box-shadow);
+}
+
+#dark-sidebar {
+  box-shadow: var(--box-shadow-dark);
+}
+.iq-dark-mode .iqonic-custom-layouts.left-slide.open, .iq-dark-mode .iqonic-custom-layouts.right-slide.open {
+  background:var(--global-body-darkcolor);
+ }
+
+ .iqonic-custom-layouts .btn-close {
+  background: var(--primary-color) !important;
+}
+
+
+
+
+

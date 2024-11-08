@@ -1,0 +1,19 @@
+/*---------------------------------------------------------------------
+                 Progressbar
+-----------------------------------------------------------------------*/
+
+/*Style 1*/
+.iq-progressbar-content { position: relative; margin-bottom: 30px; }
+.iq-progressbar-content:last-child { margin-bottom: 0; }
+.progress-value { float: right; border-radius: 0; color: var(--secondary-color); line-height: 30px; font-weight: var(--font-weight-bold); position: relative; bottom: 0; right: 0; font-weight: var(--font-weight-semi-bold); -webkit-border-radius: 90px; -moz-border-radius: 90px; border-radius: 90px; }
+.iq-progress-bar { -webkit-border-radius: 90px; -moz-border-radius: 90px; border-radius: 90px; background: var(--gray-color) none repeat scroll 0 0; box-shadow: 0 0 0; height: 8px; margin: 0; position: relative; width: 100%; margin: 10px 0 0; }
+.iq-progress-bar>span { background: var(--primary-color) none repeat scroll 0 0; display: block; height: 100%; width: 0; -webkit-border-radius: 90px; -moz-border-radius: 90px; border-radius: 90px; }
+
+/*Style-2*/
+.iq-progressbar-style-2 .iq-progress-bar { height: 30px; color: var(--white-color); font-size: var(--font-size-normal); line-height: 30px; }
+.iq-progressbar-style-2 .iq-progress-bar .progress-title { left: 15px; right: auto; position: absolute; }
+.iq-progressbar-style-2  .progress-value { color: var(--white-color); right: 15px; }
+
+/*Style-3*/
+.iq-progressbar-style-3  .progress-value { display: inline-flex; padding: 6px 10px; margin-top: -50px; align-items: center; justify-content: center; background-color: var(--gray-color); line-height: 1.5em; color: var(--white-color); position: relative; border-radius: 5px; }
+.iq-progressbar-style-3  .progress-value::before { content: ''; display: inline-block; width: 0; left: 0; position: absolute; bottom: -4px; left: 50%; margin-left: -5px; border-width: 5px 5px 0; border-style: solid; border-color: var(--gray-color) transparent transparent; }

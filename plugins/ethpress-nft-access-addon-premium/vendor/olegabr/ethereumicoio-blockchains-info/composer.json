@@ -1,0 +1,24 @@
+{
+  "name": "olegabr/ethereumicoio-blockchains-info",
+  "description": "Meta information about blockchains supported.",
+  "version": "1.0.0",
+  "keywords": [
+    "wordpress",
+    "blockchain"
+  ],
+  "homepage": "https://gitlab.com/olegabr/ethereumicoio-blockchains-info",
+  "license": "GPL-3.0+",
+  "authors": [
+    {
+      "name": "olegabr",
+      "email": "olegabr@ethereumico.io",
+      "homepage": "https://ethereumico.io"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "index.php"
+    ]
+  },
+  "type": "library"
+}

@@ -1,0 +1,1505 @@
+# Copyright (C) 2023 Iqonic Design
+# This file is distributed under the same license as the GraphinaPro – Elementor Dynamic Charts & Datatable plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: GraphinaPro – Elementor Dynamic Charts & Datatable 1.4.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/graphina-pro\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-01-17T12:45:34+05:30\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: graphina-pro-charts-for-elementor\n"
+
+#. Plugin Name of the plugin
+msgid "GraphinaPro – Elementor Dynamic Charts & Datatable"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://iqonicthemes.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Your ultimate charts and graphs solution to enhance visual effects. Create versatile, advanced and interactive charts on your website."
+msgstr ""
+
+#. Author of the plugin
+msgid "Iqonic Design"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://iqonic.design/"
+msgstr ""
+
+#: elementor/charts/brush-chart/widget/brush_chart.php:102
+#: elementor/charts/mixed/widget/mixed_chart.php:101
+#: elementor/charts/nested-column/widget/nested_column_chart.php:101
+#: elementor/google_charts/gauge/widget/gauge_google_chart.php:62
+#: elementor/google_charts/geo/widget/geo_google_chart.php:59
+#: elementor/google_charts/org/widget/org_google_chart.php:118
+msgid "Chart Setting"
+msgstr ""
+
+#: elementor/charts/brush-chart/widget/brush_chart.php:109
+msgid "Chart-1 Type"
+msgstr ""
+
+#: elementor/charts/brush-chart/widget/brush_chart.php:124
+#: elementor/charts/brush-chart/widget/brush_chart.php:180
+msgid "Area Shape"
+msgstr ""
+
+#: elementor/charts/brush-chart/widget/brush_chart.php:137
+#: elementor/charts/brush-chart/widget/brush_chart.php:193
+msgid "Line Shape"
+msgstr ""
+
+#: elementor/charts/brush-chart/widget/brush_chart.php:150
+#: elementor/charts/brush-chart/widget/brush_chart.php:206
+msgid "Column Width"
+msgstr ""
+
+#: elementor/charts/brush-chart/widget/brush_chart.php:165
+msgid "Chart-2 Type"
+msgstr ""
+
+#: elementor/charts/brush-chart/widget/brush_chart.php:231
+#: elementor/charts/mixed/widget/mixed_chart.php:267
+msgid "Category Value"
+msgstr ""
+
+#: elementor/charts/brush-chart/widget/brush_chart.php:233
+#: elementor/charts/brush-chart/widget/brush_chart.php:335
+#: elementor/charts/mixed/widget/mixed_chart.php:269
+#: elementor/charts/mixed/widget/mixed_chart.php:612
+#: elementor/charts/nested-column/widget/nested_column_chart.php:154
+#: elementor/charts/nested-column/widget/nested_column_chart.php:169
+#: elementor/charts/nested-column/widget/nested_column_chart.php:181
+#: elementor/counters/counter/widget/counter.php:832
+msgid "Add Value"
+msgstr ""
+
+#: elementor/charts/brush-chart/widget/brush_chart.php:244
+#: elementor/charts/mixed/widget/mixed_chart.php:257
+msgid "Categories"
+msgstr ""
+
+#: elementor/charts/brush-chart/widget/brush_chart.php:318
+#: elementor/charts/mixed/widget/mixed_chart.php:570
+#: elementor/counters/counter/widget/counter.php:817
+msgid "Add Tile"
+msgstr ""
+
+#: elementor/charts/brush-chart/widget/brush_chart.php:345
+#: elementor/charts/brush-chart/widget/brush_chart.php:359
+#: elementor/charts/mixed/widget/mixed_chart.php:280
+#: elementor/charts/mixed/widget/mixed_chart.php:644
+msgid "Values"
+msgstr ""
+
+#: elementor/charts/brush-chart/widget/brush_chart.php:548
+#: elementor/charts/mixed/widget/mixed_chart.php:873
+#: elementor/charts/nested-column/widget/nested_column_chart.php:341
+#: elementor/counters/counter/widget/counter.php:1095
+#: elementor/google_charts/gantt/widget/gantt_google_chart.php:375
+#: elementor/tables/advance-datatable/widget/advance-datatable.php:162
+#: utils/graphina_chart_helper_pro.php:47
+#: utils/graphina_chart_helper_pro.php:2124
+msgid "Please check file sharing permission and \"Publish As\" type is CSV or not. "
+msgstr ""
+
+#: elementor/charts/brush-chart/widget/brush_chart.php:548
+#: elementor/charts/mixed/widget/mixed_chart.php:873
+#: elementor/charts/nested-column/widget/nested_column_chart.php:341
+#: elementor/counters/counter/widget/counter.php:1095
+#: elementor/google_charts/gantt/widget/gantt_google_chart.php:375
+#: elementor/tables/advance-datatable/widget/advance-datatable.php:162
+#: utils/graphina_chart_helper_pro.php:47
+#: utils/graphina_chart_helper_pro.php:2124
+msgid "Click for reference."
+msgstr ""
+
+#: elementor/charts/brush-chart/widget/brush_chart.php:553
+#: elementor/charts/mixed/widget/mixed_chart.php:878
+#: elementor/charts/nested-column/widget/nested_column_chart.php:346
+#: elementor/counters/counter/widget/counter.php:1099
+#: elementor/google_charts/gantt/widget/gantt_google_chart.php:380
+#: elementor/tables/advance-datatable/widget/advance-datatable.php:167
+#: utils/graphina_chart_helper_pro.php:51
+#: utils/graphina_chart_helper_pro.php:2128
+msgid "Please check file sharing permission."
+msgstr ""
+
+#: elementor/charts/mixed/widget/mixed_chart.php:132
+msgid "Plot Option Settings ( Column )"
+msgstr ""
+
+#: elementor/charts/mixed/widget/mixed_chart.php:154
+#: elementor/charts/mixed/widget/mixed_chart.php:407
+#: utils/graphina_chart_helper_pro.php:256
+msgid "Position"
+msgstr ""
+
+#: elementor/charts/mixed/widget/mixed_chart.php:184
+#: elementor/counters/counter/widget/counter.php:733
+msgid "Fill Setting"
+msgstr ""
+
+#: elementor/charts/mixed/widget/mixed_chart.php:196
+msgid "Inverse Color"
+msgstr ""
+
+#: elementor/charts/mixed/widget/mixed_chart.php:198
+#: elementor/charts/mixed/widget/mixed_chart.php:314
+#: elementor/charts/mixed/widget/mixed_chart.php:599
+#: elementor/charts/nested-column/widget/nested_column_chart.php:110
+#: elementor/charts/nested-column/widget/nested_column_chart.php:126
+#: elementor/google_charts/org/widget/org_google_chart.php:126
+#: utils/graphina_chart_helper_pro.php:441
+#: utils/graphina_chart_helper_pro.php:1729
+#: utils/graphina_chart_helper_pro.php:1743
+#: utils/graphina_element_helper_pro.php:475
+#: utils/graphina_element_helper_pro.php:559
+#: utils/graphina_element_helper_pro.php:597
+#: utils/graphina_element_helper_pro.php:631
+#: utils/graphina_element_helper_pro.php:642
+#: utils/graphina_element_helper_pro.php:672
+msgid "Yes"
+msgstr ""
+
+#: elementor/charts/mixed/widget/mixed_chart.php:199
+#: elementor/charts/mixed/widget/mixed_chart.php:315
+#: elementor/charts/mixed/widget/mixed_chart.php:600
+#: elementor/charts/nested-column/widget/nested_column_chart.php:111
+#: elementor/charts/nested-column/widget/nested_column_chart.php:127
+#: elementor/google_charts/org/widget/org_google_chart.php:127
+#: utils/graphina_chart_helper_pro.php:442
+#: utils/graphina_chart_helper_pro.php:1728
+#: utils/graphina_chart_helper_pro.php:1744
+#: utils/graphina_element_helper_pro.php:476
+#: utils/graphina_element_helper_pro.php:558
+#: utils/graphina_element_helper_pro.php:596
+#: utils/graphina_element_helper_pro.php:630
+#: utils/graphina_element_helper_pro.php:641
+#: utils/graphina_element_helper_pro.php:671
+msgid "No"
+msgstr ""
+
+#: elementor/charts/mixed/widget/mixed_chart.php:211
+msgid "Gradient Type"
+msgstr ""
+
+#: elementor/charts/mixed/widget/mixed_chart.php:232
+#: elementor/counters/counter/widget/counter.php:598
+#: utils/graphina_chart_helper_pro.php:330
+msgid "Stroke Setting"
+msgstr ""
+
+#: elementor/charts/mixed/widget/mixed_chart.php:240
+#: elementor/counters/counter/widget/counter.php:653
+msgid "Line Cap"
+msgstr ""
+
+#: elementor/charts/mixed/widget/mixed_chart.php:305
+#: utils/graphina_chart_helper_pro.php:220
+msgid "Y-Axis Setting"
+msgstr ""
+
+#: elementor/charts/mixed/widget/mixed_chart.php:312
+msgid "Show Multiple"
+msgstr ""
+
+#: elementor/charts/mixed/widget/mixed_chart.php:325
+#: utils/graphina_chart_helper_pro.php:66
+msgid "Line"
+msgstr ""
+
+#: elementor/charts/mixed/widget/mixed_chart.php:327
+#: elementor/charts/mixed/widget/mixed_chart.php:373
+#: elementor/charts/mixed/widget/mixed_chart.php:384
+#: elementor/charts/mixed/widget/mixed_chart.php:395
+#: elementor/charts/mixed/widget/mixed_chart.php:464
+#: elementor/charts/mixed/widget/mixed_chart.php:512
+#: elementor/charts/mixed/widget/mixed_chart.php:539
+#: elementor/counters/counter/widget/counter.php:139
+#: elementor/counters/counter/widget/counter.php:150
+#: elementor/google_charts/gauge/widget/gauge_google_chart.php:296
+#: utils/graphina_chart_helper_pro.php:202
+#: utils/graphina_chart_helper_pro.php:231
+#: utils/graphina_element_helper_pro.php:145
+#: utils/graphina_element_helper_pro.php:682
+msgid "Hide"
+msgstr ""
+
+#: elementor/charts/mixed/widget/mixed_chart.php:328
+#: elementor/charts/mixed/widget/mixed_chart.php:374
+#: elementor/charts/mixed/widget/mixed_chart.php:385
+#: elementor/charts/mixed/widget/mixed_chart.php:396
+#: elementor/charts/mixed/widget/mixed_chart.php:465
+#: elementor/charts/mixed/widget/mixed_chart.php:513
+#: elementor/charts/mixed/widget/mixed_chart.php:540
+#: elementor/counters/counter/widget/counter.php:140
+#: elementor/counters/counter/widget/counter.php:151
+#: elementor/google_charts/gauge/widget/gauge_google_chart.php:297
+#: utils/graphina_chart_helper_pro.php:203
+#: utils/graphina_chart_helper_pro.php:232
+#: utils/graphina_element_helper_pro.php:146
+#: utils/graphina_element_helper_pro.php:628
+#: utils/graphina_element_helper_pro.php:683
+msgid "Show"
+msgstr ""
+
+#: elementor/charts/mixed/widget/mixed_chart.php:336
+msgid "Grid Color"
+msgstr ""
+
+#: elementor/charts/mixed/widget/mixed_chart.php:348
+msgid "Tick Amount"
+msgstr ""
+
+#: elementor/charts/mixed/widget/mixed_chart.php:359
+msgid "Decimals In Float"
+msgstr ""
+
+#: elementor/charts/mixed/widget/mixed_chart.php:364
+msgid "If you enabled \"Labels Prefix/Postfix\", this won’t have any effect."
+msgstr ""
+
+#: elementor/charts/mixed/widget/mixed_chart.php:371
+msgid "Tooltip"
+msgstr ""
+
+#: elementor/charts/mixed/widget/mixed_chart.php:382
+msgid "Pointer Line"
+msgstr ""
+
+#: elementor/charts/mixed/widget/mixed_chart.php:393
+msgid "Labels"
+msgstr ""
+
+#: elementor/charts/mixed/widget/mixed_chart.php:421
+msgid "Offset-X"
+msgstr ""
+
+#: elementor/charts/mixed/widget/mixed_chart.php:434
+msgid "Offset-Y"
+msgstr ""
+
+#: elementor/charts/mixed/widget/mixed_chart.php:447
+msgid "Rotate"
+msgstr ""
+
+#: elementor/charts/mixed/widget/mixed_chart.php:462
+msgid "Labels Prefix/Postfix"
+msgstr ""
+
+#: elementor/charts/mixed/widget/mixed_chart.php:476
+msgid "Labels Prefix"
+msgstr ""
+
+#: elementor/charts/mixed/widget/mixed_chart.php:491
+msgid "Labels Postfix"
+msgstr ""
+
+#: elementor/charts/mixed/widget/mixed_chart.php:506
+msgid "Format Number to String"
+msgstr ""
+
+#: elementor/charts/mixed/widget/mixed_chart.php:515
+msgid "Note: Convert 1,000  => 1k and 1,000,000 => 1m and if Format Number(Commas) is enable this will not work"
+msgstr ""
+
+#: elementor/charts/mixed/widget/mixed_chart.php:522
+msgid "Number of Decimal Want"
+msgstr ""
+
+#: elementor/charts/mixed/widget/mixed_chart.php:537
+msgid "Format Number"
+msgstr ""
+
+#: elementor/charts/mixed/widget/mixed_chart.php:545
+msgid "Note: Enabled above Labels Prefix/Postfix "
+msgstr ""
+
+#: elementor/charts/mixed/widget/mixed_chart.php:568
+#: elementor/counters/counter/widget/counter.php:178
+#: elementor/counters/counter/widget/counter.php:180
+#: elementor/counters/counter/widget/counter.php:815
+msgid "Title"
+msgstr ""
+
+#: elementor/charts/mixed/widget/mixed_chart.php:589
+msgid "Value Setting"
+msgstr ""
+
+#: elementor/charts/mixed/widget/mixed_chart.php:597
+#: elementor/charts/nested-column/widget/nested_column_chart.php:108
+msgid "Default Negative"
+msgstr ""
+
+#: elementor/charts/mixed/widget/mixed_chart.php:610
+#: elementor/counters/counter/widget/counter.php:830
+msgid "Series Value"
+msgstr ""
+
+#: elementor/charts/mixed/widget/mixed_chart.php:623
+#: elementor/counters/counter/widget/counter.php:843
+msgid "Values List"
+msgstr ""
+
+#: elementor/charts/nested-column/widget/nested_column_chart.php:124
+msgid "Show Sub-Chart Labels"
+msgstr ""
+
+#: elementor/charts/nested-column/widget/nested_column_chart.php:192
+#: elementor/charts/nested-column/widget/nested_column_chart.php:231
+msgid "Sub Data"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:110
+msgid "Counter Data Options"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:117
+msgid "Layout"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:127
+#: elementor/counters/counter/widget/counter.php:570
+#: utils/graphina_chart_helper_pro.php:189
+#: utils/graphina_element_helper_pro.php:154
+msgid "Type"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:137
+msgid "Has chart?"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:148
+msgid "Use chart data?"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:163
+#: utils/graphina_element_helper_pro.php:164
+msgid "Get Data From"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:195
+#: elementor/counters/counter/widget/counter.php:197
+msgid "Description"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:212
+msgid "Icon"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:235
+msgid "Counter Settings"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:242
+msgid "Start From"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:244
+msgid "0"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:279
+msgid "End At"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:281
+#: elementor/counters/counter/widget/counter.php:409
+msgid "1000"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:316
+msgid "Operation"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:318
+msgid "PLease select which operation needs to be performed on the selected column. If selected none, last value from selected column will be considered"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:353
+#: utils/graphina_chart_helper_pro.php:65
+msgid "Column"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:355
+#: elementor/counters/counter/widget/counter.php:372
+msgid "1"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:356
+msgid "Enter the column letter from which data should be referenced"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:370
+msgid "Object Number"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:407
+msgid "Speed"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:418
+msgid "Decimal point"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:428
+msgid "Prefix"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:430
+msgid "prefix"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:441
+msgid "Postfix"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:443
+#: elementor/counters/counter/widget/counter.php:457
+msgid "postfix"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:455
+msgid "Counter Postfix"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:466
+msgid "Number Separator"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:468
+msgid "separator"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:476
+msgid "Condition Based Color"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:485
+msgid "Heading Condition Based Color"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:496
+msgid "Subheading Condition Based Color"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:507
+#: elementor/google_charts/gauge/widget/gauge_google_chart.php:138
+msgid "Min Value"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:519
+msgid "Min Value Color"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:531
+#: elementor/google_charts/gauge/widget/gauge_google_chart.php:147
+msgid "Max Value"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:543
+msgid "Max Value Color"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:560
+msgid "Chart Options"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:580
+#: elementor/google_charts/gauge/widget/gauge_google_chart.php:79
+#: elementor/google_charts/geo/widget/geo_google_chart.php:84
+#: elementor/google_charts/org/widget/org_google_chart.php:325
+msgid "Height"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:606
+#: elementor/counters/counter/widget/counter.php:703
+#: elementor/google_charts/gauge/widget/gauge_google_chart.php:69
+#: elementor/google_charts/org/widget/org_google_chart.php:335
+msgid "Width"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:617
+msgid "Dash Space"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:628
+#: elementor/counters/counter/widget/counter.php:764
+#: utils/graphina_chart_helper_pro.php:279
+#: utils/graphina_chart_helper_pro.php:409
+msgid "Color"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:640
+#: utils/graphina_chart_helper_pro.php:339
+msgid "Curve"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:676
+msgid "Plot Setting"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:687
+msgid "Ending Shape"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:691
+#: utils/graphina_chart_helper_pro.php:123
+msgid "Flat"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:692
+#: utils/graphina_chart_helper_pro.php:124
+msgid "Rounded"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:705
+msgid "Note: Set 0 for auto setting."
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:741
+#: elementor/google_charts/org/widget/org_google_chart.php:344
+msgid "Style"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:751
+msgid "Opacity"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:772
+#: utils/graphina_chart_helper_pro.php:288
+msgid "Second Color"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:782
+#: utils/graphina_chart_helper_pro.php:298
+msgid "Fill Pattern"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:804
+msgid "Chart Data"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:870
+msgid "Icon Style"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:881
+#: elementor/google_charts/org/widget/org_google_chart.php:174
+#: elementor/google_charts/org/widget/org_google_chart.php:280
+#: utils/graphina_element_helper_pro.php:905
+#: utils/graphina_element_helper_pro.php:1008
+#: utils/graphina_element_helper_pro.php:1096
+#: utils/graphina_element_helper_pro.php:1210
+#: utils/graphina_element_helper_pro.php:1973
+msgid "Font Color"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:916
+#: elementor/counters/counter/widget/counter.php:945
+#: elementor/google_charts/org/widget/org_google_chart.php:184
+#: utils/graphina_element_helper_pro.php:1907
+#: utils/graphina_element_helper_pro.php:1938
+msgid "Alignment"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:920
+#: elementor/counters/counter/widget/counter.php:949
+#: elementor/google_charts/org/widget/org_google_chart.php:189
+#: utils/graphina_element_helper_pro.php:922
+#: utils/graphina_element_helper_pro.php:1024
+#: utils/graphina_element_helper_pro.php:1113
+#: utils/graphina_element_helper_pro.php:1252
+#: utils/graphina_element_helper_pro.php:1912
+#: utils/graphina_element_helper_pro.php:1943
+msgid "Left"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:924
+#: elementor/google_charts/org/widget/org_google_chart.php:193
+#: utils/graphina_element_helper_pro.php:926
+#: utils/graphina_element_helper_pro.php:1028
+#: utils/graphina_element_helper_pro.php:1117
+#: utils/graphina_element_helper_pro.php:1256
+#: utils/graphina_element_helper_pro.php:1916
+#: utils/graphina_element_helper_pro.php:1947
+msgid "Center"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:928
+#: elementor/counters/counter/widget/counter.php:953
+#: elementor/google_charts/org/widget/org_google_chart.php:197
+#: utils/graphina_element_helper_pro.php:930
+#: utils/graphina_element_helper_pro.php:1032
+#: utils/graphina_element_helper_pro.php:1121
+#: utils/graphina_element_helper_pro.php:1260
+#: utils/graphina_element_helper_pro.php:1920
+#: utils/graphina_element_helper_pro.php:1951
+msgid "Right"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:970
+#: utils/graphina_element_helper_pro.php:1046
+#: utils/graphina_element_helper_pro.php:1274
+#: utils/graphina_element_helper_pro.php:1992
+msgid "Margin"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:982
+#: utils/graphina_element_helper_pro.php:945
+#: utils/graphina_element_helper_pro.php:1058
+#: utils/graphina_element_helper_pro.php:1136
+#: utils/graphina_element_helper_pro.php:1286
+#: utils/graphina_element_helper_pro.php:2010
+msgid "Padding"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:995
+#: elementor/google_charts/org/widget/org_google_chart.php:229
+#: elementor/google_charts/org/widget/org_google_chart.php:301
+#: utils/graphina_element_helper_pro.php:709
+#: utils/graphina_element_helper_pro.php:775
+#: utils/graphina_element_helper_pro.php:861
+#: utils/graphina_element_helper_pro.php:1226
+#: utils/graphina_element_helper_pro.php:2027
+msgid "Border"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:1003
+#: utils/graphina_element_helper_pro.php:784
+#: utils/graphina_element_helper_pro.php:817
+#: utils/graphina_element_helper_pro.php:2039
+msgid "Border Radius"
+msgstr ""
+
+#: elementor/counters/counter/widget/counter.php:1425
+msgid "No Data Available"
+msgstr ""
+
+#: elementor/google_charts/gantt/widget/gantt_google_chart.php:286
+#: utils/graphina_chart_helper_pro.php:1488
+#: utils/graphina_chart_helper_pro.php:1611
+msgid "Refresh"
+msgstr ""
+
+#: elementor/google_charts/gantt/widget/gantt_google_chart.php:291
+#: utils/graphina_chart_helper_pro.php:1493
+#: utils/graphina_chart_helper_pro.php:1616
+msgid "Classic"
+msgstr ""
+
+#: elementor/google_charts/gantt/widget/gantt_google_chart.php:295
+msgid "Click if Dependencies column list is showing empty"
+msgstr ""
+
+#: elementor/google_charts/gantt/widget/gantt_google_chart.php:369
+msgid "Data Not Found."
+msgstr ""
+
+#: elementor/google_charts/gauge/widget/gauge_google_chart.php:96
+msgid "Value Prefix"
+msgstr ""
+
+#: elementor/google_charts/gauge/widget/gauge_google_chart.php:108
+msgid "Value Postfix"
+msgstr ""
+
+#: elementor/google_charts/gauge/widget/gauge_google_chart.php:120
+msgid "Decimal in float"
+msgstr ""
+
+#: elementor/google_charts/gauge/widget/gauge_google_chart.php:164
+msgid "Ticks Color From To"
+msgstr ""
+
+#: elementor/google_charts/gauge/widget/gauge_google_chart.php:172
+msgid "Green From"
+msgstr ""
+
+#: elementor/google_charts/gauge/widget/gauge_google_chart.php:181
+msgid "Green To"
+msgstr ""
+
+#: elementor/google_charts/gauge/widget/gauge_google_chart.php:190
+msgid "Yellow From"
+msgstr ""
+
+#: elementor/google_charts/gauge/widget/gauge_google_chart.php:199
+msgid "Yellow To"
+msgstr ""
+
+#: elementor/google_charts/gauge/widget/gauge_google_chart.php:209
+msgid "Red From"
+msgstr ""
+
+#: elementor/google_charts/gauge/widget/gauge_google_chart.php:218
+msgid "Red To"
+msgstr ""
+
+#: elementor/google_charts/gauge/widget/gauge_google_chart.php:234
+msgid "Ticks Color"
+msgstr ""
+
+#: elementor/google_charts/gauge/widget/gauge_google_chart.php:242
+msgid "Green Color"
+msgstr ""
+
+#: elementor/google_charts/gauge/widget/gauge_google_chart.php:251
+msgid "Yellow Color"
+msgstr ""
+
+#: elementor/google_charts/gauge/widget/gauge_google_chart.php:260
+msgid "Red Color"
+msgstr ""
+
+#: elementor/google_charts/gauge/widget/gauge_google_chart.php:276
+msgid "Ticks Settings"
+msgstr ""
+
+#: elementor/google_charts/gauge/widget/gauge_google_chart.php:284
+msgid "Minor Ticks"
+msgstr ""
+
+#: elementor/google_charts/gauge/widget/gauge_google_chart.php:294
+msgid "Major Ticks Show"
+msgstr ""
+
+#: elementor/google_charts/gauge/widget/gauge_google_chart.php:307
+msgid "Major Ticks"
+msgstr ""
+
+#: elementor/google_charts/gauge/widget/gauge_google_chart.php:319
+msgid "Ticks"
+msgstr ""
+
+#: elementor/google_charts/gauge/widget/gauge_google_chart.php:345
+msgid "Needle Color"
+msgstr ""
+
+#: elementor/google_charts/gauge/widget/gauge_google_chart.php:354
+msgid "Round Ball Color"
+msgstr ""
+
+#: elementor/google_charts/gauge/widget/gauge_google_chart.php:363
+msgid "Inner Circle Color"
+msgstr ""
+
+#: elementor/google_charts/gauge/widget/gauge_google_chart.php:373
+msgid "Outer Circle Color"
+msgstr ""
+
+#: elementor/google_charts/gauge/widget/gauge_google_chart.php:428
+msgid "Label"
+msgstr ""
+
+#: elementor/google_charts/gauge/widget/gauge_google_chart.php:440
+msgid "Value"
+msgstr ""
+
+#: elementor/google_charts/geo/widget/geo_google_chart.php:66
+msgid "Chart Configuration"
+msgstr ""
+
+#: elementor/google_charts/geo/widget/geo_google_chart.php:94
+msgid "Show Region"
+msgstr ""
+
+#: elementor/google_charts/geo/widget/geo_google_chart.php:105
+msgid "label"
+msgstr ""
+
+#: elementor/google_charts/geo/widget/geo_google_chart.php:107
+msgid "Latitude"
+msgstr ""
+
+#: elementor/google_charts/org/widget/org_google_chart.php:124
+msgid "Collapse Node"
+msgstr ""
+
+#: elementor/google_charts/org/widget/org_google_chart.php:142
+msgid "Node Settings"
+msgstr ""
+
+#: elementor/google_charts/org/widget/org_google_chart.php:149
+msgid "Node Size"
+msgstr ""
+
+#: elementor/google_charts/org/widget/org_google_chart.php:153
+msgid "small"
+msgstr ""
+
+#: elementor/google_charts/org/widget/org_google_chart.php:154
+msgid "medium"
+msgstr ""
+
+#: elementor/google_charts/org/widget/org_google_chart.php:155
+msgid "large"
+msgstr ""
+
+#: elementor/google_charts/org/widget/org_google_chart.php:164
+#: elementor/google_charts/org/widget/org_google_chart.php:270
+msgid "Font Size"
+msgstr ""
+
+#: elementor/google_charts/org/widget/org_google_chart.php:210
+msgid "Node Shadow"
+msgstr ""
+
+#: elementor/google_charts/org/widget/org_google_chart.php:218
+#: elementor/google_charts/org/widget/org_google_chart.php:292
+#: utils/graphina_element_helper_pro.php:752
+#: utils/graphina_element_helper_pro.php:870
+#: utils/graphina_element_helper_pro.php:959
+#: utils/graphina_element_helper_pro.php:1154
+#: utils/graphina_element_helper_pro.php:1168
+#: utils/graphina_element_helper_pro.php:1299
+#: utils/graphina_element_helper_pro.php:1877
+msgid "Background"
+msgstr ""
+
+#: elementor/google_charts/org/widget/org_google_chart.php:262
+msgid "Selected Node Settings"
+msgstr ""
+
+#: elementor/google_charts/org/widget/org_google_chart.php:317
+msgid "Connection"
+msgstr ""
+
+#: elementor/google_charts/org/widget/org_google_chart.php:348
+msgid "solid"
+msgstr ""
+
+#: elementor/google_charts/org/widget/org_google_chart.php:349
+msgid "dotted"
+msgstr ""
+
+#: elementor/google_charts/org/widget/org_google_chart.php:350
+msgid "dashed"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:67
+msgid "Area"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:82
+msgid "Horizontal"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:83
+msgid "Vertical"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:84
+msgid "Diagonal1"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:85
+msgid "Diagonal2"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:108
+msgid "Square"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:109
+msgid "Butt"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:110
+msgid "Round"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:143
+msgid "Elements Setting"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:200
+msgid "Show Data Labels"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:229
+msgid "Show Axis With Title"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:241
+msgid "Yaxis Title"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:388
+msgid "Drop Shadow Setting"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:397
+#: utils/graphina_chart_helper_pro.php:439
+msgid "Enabled"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:399
+msgid "True"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:400
+msgid "False"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:430
+msgid "Tooltip Setting"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:549
+#: utils/graphina_chart_helper_pro.php:1215
+msgid "Please select column"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:1154
+msgid "Please Select Table"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:1173
+#: utils/graphina_chart_helper_pro.php:1175
+msgid "Selected Database Not found."
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:1179
+#: utils/graphina_chart_helper_pro.php:1181
+msgid "No Database found, Please check your sql statement."
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:1263
+#: utils/graphina_chart_helper_pro.php:1275
+#: utils/graphina_chart_helper_pro.php:1277
+#: utils/graphina_chart_helper_pro.php:1282
+#: utils/graphina_chart_helper_pro.php:1284
+msgid "No data found, Please check your sql statement."
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:1296
+msgid "SQL Query"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:1297
+#: utils/graphina_element_helper_pro.php:103
+msgid "Table"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:1302
+#: utils/graphina_element_helper_pro.php:107
+msgid "External"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:1313
+#: utils/graphina_element_helper_pro.php:225
+msgid "Select Mode"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:1330
+#: utils/graphina_element_helper_pro.php:271
+msgid "Select Database"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:1350
+#: utils/graphina_chart_helper_pro.php:1371
+#: utils/graphina_element_helper_pro.php:242
+#: utils/graphina_element_helper_pro.php:291
+msgid "Select Table"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:1389
+msgid "Uppercase Columns Name"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:1395
+msgid "Note: If selected table have uppercase in any column name enable this option"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:1402
+msgid "Condition Query"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:1405
+msgid "Where column_name = column_value"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:1406
+#: utils/graphina_element_helper_pro.php:355
+msgid "Where condition for selected table, Use Double quote( \" \" ) in condition value "
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:1420
+msgid "Offset"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:1437
+msgid "Limit"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:1455
+msgid "SQL Raw Query"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:1458
+msgid "SQL Builder"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:1459
+#: utils/graphina_element_helper_pro.php:320
+msgid "Fetch data from customize/raw query builder, Use Double quote( \" \" ) in condition value "
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:1473
+#: utils/graphina_chart_helper_pro.php:1714
+#: utils/graphina_element_helper_pro.php:365
+#: utils/graphina_element_helper_pro.php:458
+msgid "Dynamic Keys"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:1475
+msgid "Use dynamic key in  Query,  it will replace key will dynamic value (example : colum_name={{CURRENT_USER_ID}} <strong><a href=\"https://apps.iqonic.design/docs/product/graphina-elementor-charts-and-graphs/use-dynamic-data-in-widgets/dynamic_key/\" target=\"_blank\">List of Dynamic key</a></strong>"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:1497
+#: utils/graphina_chart_helper_pro.php:1620
+msgid "Click if x/y-axis column list is showing empty"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:1509
+#: utils/graphina_chart_helper_pro.php:1632
+msgid "X-Axis Columns"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:1522
+#: utils/graphina_chart_helper_pro.php:1647
+msgid "Y-Axis Columns"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:1531
+msgid "Note: X-axis column should contain country/region name only"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:1541
+msgid "Upload CSV"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:1557
+#: utils/graphina_chart_helper_pro.php:1696
+#: utils/graphina_chart_helper_pro.php:1698
+#: utils/graphina_element_helper_pro.php:190
+#: utils/graphina_element_helper_pro.php:441
+#: utils/graphina_element_helper_pro.php:443
+msgid "URL"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:1559
+#: utils/graphina_element_helper_pro.php:192
+msgid "Remote File URL"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:1560
+msgid "This URL is used to fetch CSV from remote server"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:1576
+#: utils/graphina_element_helper_pro.php:207
+msgid "Enter Google Sheet Published URL"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:1578
+#: utils/graphina_element_helper_pro.php:210
+msgid "Google Sheet Published URL"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:1596
+msgid "Data Column Wise"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:1716
+#: utils/graphina_element_helper_pro.php:460
+msgid "Use Dynamic key in Api url , it will replace key will dynamic value (example : &user_id={{CURRENT_USER_ID}} <strong><a href=\"https://apps.iqonic.design/docs/product/graphina-elementor-charts-and-graphs/use-dynamic-data-in-widgets/dynamic_key/\" target=\"_blank\">List of Dynamic key</a></strong>"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:1726
+#: utils/graphina_element_helper_pro.php:594
+msgid "Use Cache For Development"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:1730
+msgid "This feature is used to cache the CSV file for 1 hour only in editor mode. It will not generate cache for live site or preview"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:1741
+#: utils/graphina_element_helper_pro.php:473
+msgid "Enable Header Options"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:1755
+#: utils/graphina_element_helper_pro.php:487
+msgid "Header Key"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:1770
+#: utils/graphina_element_helper_pro.php:502
+msgid "Header Token"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:1864
+msgid "Unquie Widget ID "
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:1872
+#: utils/graphina_element_helper_pro.php:406
+msgid "Note:Use this Widget id to Wordpress filter and identify the chart/counter/datatable during development to ensure right data goes into right widget.  "
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:2073
+#: utils/graphina_chart_helper_pro.php:2081
+msgid "Download SVG"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:2074
+msgid "Selection"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:2075
+msgid "Selection Zoom"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:2076
+msgid "Zoom In"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:2077
+msgid "Zoom Out"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:2078
+msgid "Panning"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:2079
+msgid "Reset Zoom"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:2080
+msgid "Menu"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:2082
+msgid "Download PNG"
+msgstr ""
+
+#: utils/graphina_chart_helper_pro.php:2083
+msgid "Download CSV"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:24
+msgid "Manual"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:25
+msgid "Dynamic"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:28
+msgid "Firebase"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:33
+msgid "Forminator Addon"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:40
+#: utils/graphina_element_helper_pro.php:76
+msgid "CSV"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:41
+#: utils/graphina_element_helper_pro.php:77
+msgid "Remote CSV"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:42
+#: utils/graphina_element_helper_pro.php:78
+msgid "Google Sheet"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:43
+#: utils/graphina_element_helper_pro.php:80
+msgid "API"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:44
+#: utils/graphina_element_helper_pro.php:79
+msgid "Database"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:52
+msgid "None"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:53
+msgid "Sum"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:54
+msgid "Average"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:55
+msgid "Percentage"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:60
+msgid "Number"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:61
+msgid "Roman Number"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:66
+msgid "Layout 1"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:67
+msgid "Layout 2"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:68
+msgid "Layout 3"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:69
+msgid "Layout 4"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:70
+msgid "Layout 5"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:71
+msgid "Layout 6"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:104
+msgid "MySQL Query"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:126
+msgid "Data Options"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:133
+msgid "Data Json"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:143
+msgid "Show Card"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:178
+msgid "Upload CSV File"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:312
+msgid "Mysql Query"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:330
+msgid "Select column or provide alias to column  Query"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:347
+msgid "Where Condition"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:367
+msgid "Use dynamic key in  Query,it will replace key will dynamic value (example : column_name={{CURRENT_USER_ID}} <strong><a href=\"https://apps.iqonic.design/docs/product/graphina-elementor-charts-and-graphs/use-dynamic-data-in-widgets/dynamic_key/\" target=\"_blank\">List of Dynamic key</a></strong>"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:398
+msgid "Unquie Widget ID"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:535
+msgid "No of Rows"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:545
+msgid "No of Columns"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:556
+msgid "Show Index"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:567
+msgid "Index Header"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:569
+msgid "Index Title"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:580
+msgid "Index Value Type"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:598
+msgid "It's create temporary cache of your file data and load from their for one hour in editor mode. It doesn't effect preview or live website"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:621
+msgid "Header"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:639
+msgid "Includes In Body"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:662
+msgid "Table Options"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:669
+msgid "Responsive"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:680
+msgid "Search"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:700
+msgid "Table Style"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:739
+#: utils/graphina_element_helper_pro.php:809
+msgid "Card Style"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:765
+msgid "Box Shadow"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:830
+msgid "Alignment Items"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:834
+msgid "Top"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:838
+msgid "Middle"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:842
+msgid "Bottom"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:887
+msgid "Header Style"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:896
+#: utils/graphina_element_helper_pro.php:999
+#: utils/graphina_element_helper_pro.php:1087
+#: utils/graphina_element_helper_pro.php:1201
+#: utils/graphina_element_helper_pro.php:1893
+msgid "Typography"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:918
+#: utils/graphina_element_helper_pro.php:1020
+#: utils/graphina_element_helper_pro.php:1109
+#: utils/graphina_element_helper_pro.php:1248
+msgid "Text Alignment"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:1078
+msgid "Body Style"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:1148
+msgid "Odd Row"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:1162
+msgid "Even Row"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:1189
+msgid "Search Style"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:1808
+#: utils/graphina_element_helper_pro.php:1820
+msgid "Password form "
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:2159
+msgid "For hover in Button keep background type classic of button"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:2173
+msgid "Normal"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:2180
+#: utils/graphina_element_helper_pro.php:2214
+msgid "Text Color"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:2193
+#: utils/graphina_element_helper_pro.php:2227
+msgid "Background Color"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:2207
+msgid "Hover"
+msgstr ""
+
+#: utils/graphina_element_helper_pro.php:2239
+msgid "Border Color"
+msgstr ""
+
+#: utils/graphina_general_helper_pro.php:32
+msgid "<strong>GraphinaPro – Elementor Dynamic Charts & Datatable</strong> requires <strong>Graphina - Elementor Charts and Graphs</strong> plugin to be active. Please activate Graphina - Elementor Charts and Graphs for GraphinaPro – Elementor Dynamic Charts & Datatable to continue."
+msgstr ""
+
+#: utils/graphina_general_helper_pro.php:33
+msgid "Activate Graphina – Elementor Charts and Graphs"
+msgstr ""
+
+#: utils/graphina_general_helper_pro.php:40
+msgid "<strong>GraphinaPro – Elementor Dynamic Charts & Datatable</strong> requires <strong>Graphina – Elementor Charts and Graphs v-"
+msgstr ""
+
+#: utils/graphina_general_helper_pro.php:41
+msgid "Update Graphina – Elementor Charts and Graphs"
+msgstr ""
+
+#: utils/graphina_general_helper_pro.php:46
+msgid "<strong>GraphinaPro – Elementor Dynamic Charts & Datatable</strong> requires <strong>Graphina – Elementor Charts and Graphs</strong> plugin to be installed and activated. Please install Graphina – Elementor Charts and Graphs for GraphinaPro – Elementor Dynamic Charts & Datatable to continue."
+msgstr ""
+
+#: utils/graphina_general_helper_pro.php:47
+msgid "Install Graphina – Elementor Charts and Graphs"
+msgstr ""
+
+#: utils/graphina_general_helper_pro.php:63
+msgid "<strong>GraphinaPro – Elementor Dynamic Charts & Datatable</strong> requires <strong>License Code</strong> for use pro features. Please enter license code for GraphinaPro."
+msgstr ""
+
+#: utils/graphina_general_helper_pro.php:64
+msgid "Add License Code for GraphinaPro"
+msgstr ""

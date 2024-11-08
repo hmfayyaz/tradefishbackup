@@ -1,0 +1,31 @@
+/*---------------------------------------------------------------------
+                  FAQ
+-----------------------------------------------------------------------*/
+.iq-accordion { z-index: 9; position: relative; }
+.iq-accordion .iq-accordion-title { position: relative; font-family: 'Source Sans Pro', sans-serif; border-radius: 5px; padding: 15px 60px 15px 30px; background: var(--white-light-color); line-height: normal; cursor: pointer; text-align: left; color: var(--white-color); font-weight: var(--font-weight-semi-bold); text-decoration: none; }
+.iq-accordion .iq-accordion-title .accordion-title { display: inline-block; vertical-align: middle; }
+.iq-accordion .iq-accordion-details { display: none; text-align: left; padding: 0 30px 15px; background: var(--white-light-color); }
+.iq-accordion .iq-accordion-details p { margin-bottom: 0; }
+.iq-accordion .iq-accordion-block { margin-bottom: 30px; border: 1px solid var(--white-light-color); padding: 0; }
+.iq-accordion .iq-accordion-block:last-child { margin-bottom: 0 !important; }
+.iq-accordion .iq-accordion-block .iq-accordion-title i { color:var(--primary-color); line-height: normal; vertical-align: middle; }
+.iq-accordion .iq-accordion-block .iq-accordion-title   .iq-icon-right { position: absolute; right: 30px; top: 50%; -moz-transform: translateY(-50%); -webkit-transform: translateY(-50%); -o-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%);}
+.iq-accordion .iq-accordion-block .iq-accordion-title  i::before { vertical-align: middle; }
+.iq-accordion .iq-accordion-block .iq-accordion-title  i.active { display: none; }
+.iq-accordion .iq-accordion-block.iq-active .iq-accordion-title  i.active { display: inline-block; vertical-align: middle; }
+.iq-accordion .iq-accordion-block.iq-active  .iq-accordion-title i.inactive { display: none; }
+.iq-accordion-square .iq-accordion-block { -webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px; }
+.iq-accordion-semi-round .iq-accordion-block { -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; }
+.iq-accordion-round .iq-accordion-block { -webkit-border-radius: 50px; -moz-border-radius: 50px; border-radius: 50px; }
+.iq-accordion-round .iq-accordion-title, .iq-accordion-round .iq-accordion-details { background: var(--white-color); }
+.iq-accordion .iq-accordion-block .iq-accordion-title .iq-icon-left { margin-right: 15px; display: inline-block; vertical-align: middle; }
+.iq-accordion-shadow .iq-accordion-block.iq-active { -webkit-box-shadow: -1px 4px 30px 0px rgba(0, 0, 0, 0.06); -moz-box-shadow: -1px 4px 30px 0px rgba(0, 0, 0, 0.06); box-shadow: -1px 4px 30px 0px rgba(0, 0, 0, 0.06); transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; }
+.iq-accordion-classic .iq-accordion-details { padding: 15px 30px; }
+
+/*----------------------------------------
+  Responsive
+----------------------------------------*/
+
+@media (max-width: 1024px){
+    .iq-accordion-round .iq-accordion-block { -webkit-border-radius: 25px; -moz-border-radius: 25px; border-radius: 25px; }
+}

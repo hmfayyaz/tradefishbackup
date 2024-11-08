@@ -1,0 +1,26 @@
+/*=============================
+vertical timeline
+===================================*/
+.iq-timeline-vertical-1 { position: relative; width: 100%; margin: auto; }
+.iq-timeline-vertical-1 .conference-center-line { position: absolute; width: 5px; height: 100%; top: 0; left: 50%; margin-left: -2px; background: #dee2fb; z-index: -1; }
+.iq-timeline-vertical-1 .timeline-article { width: 100%; position: relative; margin: 0px; min-height: 243px; z-index: 0; }
+.iq-timeline-vertical-1 .timeline-article .content-date { position: absolute; top: 33%; left: 50%; font-size: var(--font-size-18); margin-left: -150px; transform: translateY(50%); }
+.iq-timeline-vertical-1 .timeline-article .meta-date { position: absolute; top: 50%; left: 50%; width: 30px; height: 30px; transform: translateY(-50%); margin-left: -14px; border-radius: 100%; background: var(--white-color); border: 1px solid #dee2fb; box-shadow: 4.871px 34.659px 30px 0px rgba(0, 0, 0, 0.06); }
+.iq-timeline-vertical-1 .timeline-article .content-box { position: absolute; box-shadow: 4.871px 34.659px 30px 0px rgba(0, 0, 0, 0.06); border: 1px solid #437eeb; border-radius: 5px; background-color: var(--white-color); width: 40%; top: 50%; transform: translateY(-50%); padding: 30px; right: 0%; margin-left: 50px; border: 2px solid #d9ddf5; }
+.iq-timeline-vertical-1 .timeline-article .content-box  .timeline-date { color: var(--color-theme-red-light); margin-bottom: 10px; }
+.iq-timeline-vertical-1 .timeline-article .content-box  .timeline-content { margin-bottom: 0; }
+.iq-timeline-vertical-1 .timeline-article:nth-child(even) .content-box { right: auto; margin-left: 0; }
+.iq-timeline-vertical-1 .timeline-article .content-box  .timeline-title { margin-bottom: 10px; }
+.iq-timeline-vertical-2 .timeline--mobile { padding: 0 }
+
+
+@media(max-width:767px) {
+	.iq-timeline-vertical-1 .conference-center-line{left: 20px;}
+	.iq-timeline-vertical-1 .timeline-article .meta-date{left:5px;}
+	.iq-timeline-vertical-1 .timeline-article .content-box{position: relative;top:0;transform: none;width: 80%;}
+	.iq-timeline-vertical-1 .timeline-article:nth-child(even) .content-box{margin-left: 50px;}
+	.iq-timeline-vertical-1 .timeline-article{margin-bottom: 30px;}
+}
+@media(max-width:479px) {
+.iq-timeline-vertical-1 .timeline-article .content-box,	.iq-timeline-vertical-1 .timeline-article:nth-child(even) .content-box{margin-left: 30px;width: 90%;}
+}

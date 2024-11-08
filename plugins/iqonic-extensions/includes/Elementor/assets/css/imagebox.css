@@ -1,0 +1,77 @@
+
+.umetric-image-box .umetric-image-box-img{
+    position: relative;	
+    -webkit-transition: all 0.5s ease-out 0s;
+    -moz-transition: all 0.5s ease-out 0s;
+    -ms-transition: all 0.5s ease-out 0s;
+    -o-transition: all 0.5s ease-out 0s;
+    transition: all 0.5s ease-out 0s;
+    overflow: hidden;
+    cursor: pointer; 
+
+}
+.umetric-image-box .umetric-image-box-img img
+{ 
+    animation-duration: 15s;
+}
+.umetric-image-box.hover-image-scroll:hover .umetric-image-box-img img {
+    transform: translateY(calc(-100% + 500px));
+    transition: 5s ease-out;
+}
+.umetric-image-box .elementor-image-box-content .umetric-image-box-title a{
+    color: var(--color-theme-primary);
+}
+.umetric-image-box .elementor-image-box-content .umetric-image-box-title a:hover{ 
+    color: var(--color-theme-secondary);
+}
+.umetric-image-box .elementor-image-box-content .umetric-image-box-description{margin-bottom: 0;}
+
+
+.umetric-image-box.hover-image-scroll .umetric-image-box-img img{
+    width: 100%;
+    object-fit: cover;
+    transform: translateY(0);
+    transition: 5s ease-out;
+}
+
+/*******Image Scroll Effect**********/
+.umetric-image-box.hover-image-scroll .umetric-image-box-img{
+	cursor: pointer;
+    height: 500px;
+	-webkit-transition: all 0.5s ease-out 0s;
+    -moz-transition: all 0.5s ease-out 0s;
+    -ms-transition: all 0.5s ease-out 0s;
+    -o-transition: all 0.5s ease-out 0s;
+    transition: all 0.5s ease-out 0s;
+    overflow: hidden;
+}
+
+.umetric-image-box.hover-image-scroll .umetric-image-box-img img{
+    width:100%;
+    object-fit: cover;
+    transform: translateY(0);
+    transition: 5s ease-out;
+}
+.umetric-image-box.hover-image-scroll:hover .umetric-image-box-img img{
+  transform: translateY(calc(-100% + 500px));
+  transition: 5s ease-out;
+}
+.umetric-image-box .elementor-image-box-content{
+    padding: 16px 0 0;
+}
+.umetric-image-box{
+    border-radius: var(--border-radius-ten);
+    box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 10%);
+    transition: all 0.45s ease-in-out;
+    padding: 16px;
+    background: var(--color-theme-white);
+}
+.umetric-image-box:hover{
+    transform: translate3d(0,-15px,0);
+}
+.umetric-image-box:hover .umetric-image-box-title{
+    color: var(--primary-color);
+}
+.owl-general .owl-stage-outer {
+    overflow: visible;
+}

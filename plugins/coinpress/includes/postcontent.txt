@@ -1,0 +1,21 @@
+[coinmc type="logoname"]
+        
+[coinmc type="prices"]
+
+[coinmc type="buttons"]
+[coinmc type="watchlist_button"]
+<h2>What is [coinmc type="name"]?</h2>
+[coinmc type="desc"]
+[coinmc type="links"]
+<h2>[coinmc type="name"] Calculator</h2>
+[coinmc type="calc"]
+<h2>More Info</h2>
+
+[coinmc-tabs]
+[coinmc-tab title="Charts" icon="fas fa-chart-line"][coinmc type="chart"][/coinmc-tab]
+[coinmc-tab title="Historical Data" icon="far fa-calendar-alt"][coinmc type="historical"][/coinmc-tab]
+[coinmc-tab title="Markets" icon="fas fa-exchange-alt"][coinmc type="markets"][/coinmc-tab]
+[coinmc-tab title="Social" icon="fab fa-twitter"][coinmc type="social"][/coinmc-tab]
+[coinmc-tab title="News" icon="fas fa-newspaper"][coinmc type="news"][/coinmc-tab]
+[coinmc-tab title="Comments" icon="fas fa-comment"][coinmc type="comments"][/coinmc-tab]
+[/coinmc-tabs]

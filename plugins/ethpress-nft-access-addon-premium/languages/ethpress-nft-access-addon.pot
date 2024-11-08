@@ -1,0 +1,481 @@
+# Copyright (C) 2023 Lynn (lynn.mvp at tutanota dot com), ethereumicoio
+# This file is distributed under the same license as the EthPress NFT Access Add-On package.
+msgid ""
+msgstr ""
+"Project-Id-Version: EthPress NFT Access Add-On 1.6.7\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/ethpress-nft-access-addon\n"
+"POT-Creation-Date: 2023-10-27 10:08:21+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2023-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: app/Admin/Options.php:44 app/Plugin.php:707
+msgid "EthPress NFT Access"
+msgstr ""
+
+#: app/Admin/Options.php:75 app/Plugin.php:891
+msgid "NFT"
+msgstr ""
+
+#: app/Admin/Options.php:197
+msgid "Blockchain Settings"
+msgstr ""
+
+#: app/Admin/Options.php:206
+msgid "Infura.io"
+msgstr ""
+
+#: app/Admin/Options.php:207
+msgid "Custom"
+msgstr ""
+
+#: app/Admin/Options.php:238
+msgid "Blockchain API Node"
+msgstr ""
+
+#: app/Admin/Options.php:255
+msgid "The blockchain API node used: infura.io or custom"
+msgstr ""
+
+#: app/Admin/Options.php:262
+msgid "Blockchain"
+msgstr ""
+
+#: app/Admin/Options.php:279
+msgid ""
+"The blockchain used: mainnet, goerli or sepolia. Use mainnet in production, "
+"and goerli or sepolia in test mode. See plugin documentation for the "
+"testing guide."
+msgstr ""
+
+#: app/Admin/Options.php:280
+msgid ""
+"NOTE: The Polygon, Optimism, Arbitrum and Avalanche C-Chain chains require "
+"special registration on the infura side."
+msgstr ""
+
+#: app/Admin/Options.php:285 app/Admin/Options.php:322
+#: app/Admin/Options.php:666 app/Admin/Options.php:892
+#: app/Admin/Options.php:926 app/Admin/Options.php:956
+#: app/Admin/Options.php:995
+msgid "Upgrade to keep using this feature!"
+msgstr ""
+
+#: app/Admin/Options.php:289 app/Admin/Options.php:326
+#: app/Admin/Options.php:670 app/Admin/Options.php:896
+#: app/Admin/Options.php:930 app/Admin/Options.php:960
+#: app/Admin/Options.php:999
+msgid "Upgrade to use this feature!"
+msgstr ""
+
+#: app/Admin/Options.php:300 app/Admin/Options.php:659
+msgid "Infura.io API Key"
+msgstr ""
+
+#: app/Admin/Options.php:304
+msgid "Put your Infura.io API Key here"
+msgstr ""
+
+#: app/Admin/Options.php:307
+msgid ""
+"The API key for the %1$s. You need to register on this site to obtain it. "
+"Use this guide please: %2$s."
+msgstr ""
+
+#: app/Admin/Options.php:314
+msgid "Note that this setting is ignored if the \"%1$s\" setting is set"
+msgstr ""
+
+#: app/Admin/Options.php:315 app/Admin/Options.php:349
+#: app/Admin/Options.php:626 app/Admin/Options.php:651
+msgid "Ethereum Node JSON-RPC Endpoint"
+msgstr ""
+
+#: app/Admin/Options.php:341
+msgid ""
+"The API key for the %1$s. You need to %2$sregister%3$s on this site to "
+"obtain it."
+msgstr ""
+
+#: app/Admin/Options.php:348 app/Admin/Options.php:625
+msgid "Failed to request blockchain network ID. Check your \"%s\" setting value."
+msgstr ""
+
+#: app/Admin/Options.php:579
+msgid ""
+"Premium Infura.io account is required to use this network with the "
+"Infura.io service"
+msgstr ""
+
+#: app/Admin/Options.php:618
+msgid ""
+"Use these settings only if you want to use Ethereum node other than "
+"infura.io, or completely another EVM-compatible blockchain like Quorum, "
+"BSC, etc."
+msgstr ""
+
+#: app/Admin/Options.php:655
+msgid "Put your Ethereum Node JSON-RPC Endpoint here"
+msgstr ""
+
+#: app/Admin/Options.php:658
+msgid ""
+"The Ethereum Node JSON-RPC Endpoint URI. This is an advanced setting. Use "
+"with care. This setting supercedes the \"%1$s\" setting."
+msgstr ""
+
+#: app/Admin/Options.php:690
+msgid "Learnpress course NFT Login Access Settings"
+msgstr ""
+
+#: app/Admin/Options.php:698
+msgid "Learnpress course NFT login message"
+msgstr ""
+
+#: app/Admin/Options.php:702 app/Admin/Options.php:749
+#: app/Admin/Options.php:795 app/Admin/Options.php:842
+#: app/Admin/Options.php:911
+msgid "Put your message here"
+msgstr ""
+
+#: app/Admin/Options.php:705 app/Admin/Options.php:752
+#: app/Admin/Options.php:845
+msgid "The message is show if NFT access is configured for the Learnpress course"
+msgstr ""
+
+#: app/Admin/Options.php:712 app/Admin/Options.php:734
+#: app/Admin/Options.php:761
+msgid ""
+"LearnPress is WordPress LMS Plugin which can be used to easily create & "
+"sell courses online."
+msgstr ""
+
+#: app/Admin/Options.php:722 app/Admin/Options.php:815
+msgid "Show NFT Access Granted Message"
+msgstr ""
+
+#: app/Admin/Options.php:728 app/Admin/Options.php:821
+msgid "Show message \"NFT Access Granted\" on progress page?"
+msgstr ""
+
+#: app/Admin/Options.php:745 app/Admin/Options.php:838
+msgid "NFT Access Granted Message"
+msgstr ""
+
+#: app/Admin/Options.php:783
+msgid "Tutor course NFT Login Access Settings"
+msgstr ""
+
+#: app/Admin/Options.php:791
+msgid "Tutor course NFT login message"
+msgstr ""
+
+#: app/Admin/Options.php:798
+msgid "The message is show if NFT access is configured for the Tutor course"
+msgstr ""
+
+#: app/Admin/Options.php:805 app/Admin/Options.php:827
+#: app/Admin/Options.php:854
+msgid ""
+"Tutor LMS is a complete, feature-packed, and robust WordPress LMS plugin to "
+"easily create & sell courses online. "
+msgstr ""
+
+#: app/Admin/Options.php:872
+msgid "Site wide NFT Login Access Settings"
+msgstr ""
+
+#: app/Admin/Options.php:880 app/Plugin.php:861
+msgid "Redirect URL"
+msgstr ""
+
+#: app/Admin/Options.php:884
+msgid "Put your redirect url here"
+msgstr ""
+
+#: app/Admin/Options.php:886 app/Plugin.php:865
+msgid ""
+"Redirect user here if they do not own ONE OF the required tokens defined "
+"below."
+msgstr ""
+
+#: app/Admin/Options.php:907
+msgid "No NFT token for login message"
+msgstr ""
+
+#: app/Admin/Options.php:914
+msgid "The message to show if no required NFT is found in user wallet."
+msgstr ""
+
+#: app/Admin/Options.php:919
+msgid "Example: %s"
+msgstr ""
+
+#: app/Admin/Options.php:919 app/Plugin.php:676
+msgid ""
+"You do not have the NFT required for access. You'll be redirected to a page "
+"where you can get it."
+msgstr ""
+
+#: app/Admin/Options.php:941 app/Admin/Options.php:985
+msgid "NFT contract addresses"
+msgstr ""
+
+#: app/Admin/Options.php:945
+msgid "Put your NFT contract addresses here"
+msgstr ""
+
+#: app/Admin/Options.php:947
+msgid "A comma separated list of NFT smart contract addresses."
+msgstr ""
+
+#: app/Admin/Options.php:950 app/Admin/Options.php:980
+msgid "At least one token from this list will be required to login to your site"
+msgstr ""
+
+#: app/Admin/Options.php:971 app/Plugin.php:881
+msgid "NFT Token ID"
+msgstr ""
+
+#: app/Admin/Options.php:975
+msgid "Put your token ids here"
+msgstr ""
+
+#: app/Admin/Options.php:977
+msgid "A comma separated list of NFT token IDs."
+msgstr ""
+
+#: app/Admin/Options.php:984
+msgid ""
+"Note that this list should be empty or the count of elements in this list "
+"should be the same as in the \"%1$s\" setting."
+msgstr ""
+
+#: app/Admin/Options.php:989
+msgid ""
+"Use contract address dublicates if several IDs are needed for the same "
+"contract, and empty element \",,\" if any token ID accepted for a "
+"corresponding token contract."
+msgstr ""
+
+#: app/Admin/Options.php:1011
+msgid "Need help to configure this plugin?"
+msgstr ""
+
+#: app/Admin/Options.php:1013 app/Admin/Options.php:1020
+msgid "Feel free to %1$shire me!%2$s"
+msgstr ""
+
+#: app/Admin/Options.php:1018
+msgid "Need help to develop a ERC20 or NFT token?"
+msgstr ""
+
+#: app/Admin/Options.php:1025
+msgid "Want to perform an ICO Crowdsale from your Wordpress site?"
+msgstr ""
+
+#: app/Admin/Options.php:1027
+msgid "Install the %1$sEthereum ICO WordPress plugin%2$s!"
+msgstr ""
+
+#: app/Admin/Options.php:1032
+msgid "Want to create Ethereum wallets on your Wordpress site?"
+msgstr ""
+
+#: app/Admin/Options.php:1034
+msgid "Install the %1$sWordPress Ethereum Wallet plugin%2$s!"
+msgstr ""
+
+#: app/Admin/Options.php:1084
+msgid "Settings"
+msgstr ""
+
+#: app/Plugin.php:566 app/Plugin.php:586
+msgid "NFT Access Granted"
+msgstr ""
+
+#: app/Plugin.php:606 app/Plugin.php:628
+msgid "You can buy NFT to access the course"
+msgstr ""
+
+#: app/Plugin.php:652
+msgid "NFT Access Add-On settings error"
+msgstr ""
+
+#: app/Plugin.php:779
+msgid "Contract Address"
+msgstr ""
+
+#: app/Plugin.php:780
+msgid "Token ID"
+msgstr ""
+
+#: app/Plugin.php:820
+msgid "NFT Data"
+msgstr ""
+
+#: app/Plugin.php:838
+msgid ""
+"Require an NFT and restrict user access to the product page. Only users "
+"with the token will be able to view the product."
+msgstr ""
+
+#: app/Plugin.php:840
+msgid ""
+"Require an NFT and restrict user access to the course. Only users with the "
+"token will be able to view the course."
+msgstr ""
+
+#: app/Plugin.php:842
+msgid ""
+"Require an NFT and restrict user access to the page. Only users with the "
+"token will be able to view the page."
+msgstr ""
+
+#: app/Plugin.php:871
+msgid "NFT Contract Address"
+msgstr ""
+
+#: app/Plugin.php:875
+msgid "A smart contract address."
+msgstr ""
+
+#: app/Plugin.php:885
+msgid "The ID of the token."
+msgstr ""
+
+#: app/Plugin.php:895
+msgid "Add NFT"
+msgstr ""
+
+#: app/Shortcodes/Nftlink.php:56
+msgid "The product ID not set"
+msgstr ""
+
+#: app/Shortcodes/Nftlink.php:62
+msgid "No product with that ID."
+msgstr ""
+
+#: app/Shortcodes/Nftlink.php:78
+msgid "Check for NFT to Access"
+msgstr ""
+
+#: app/Shortcodes/Nftlink.php:79 app/Shortcodes/Nftlink.php:80
+msgid "View Product"
+msgstr ""
+
+#: app/Shortcodes/Nftlink.php:81
+msgid "Purchase NFT to Access"
+msgstr ""
+
+#: ethpress-nft-access-addon.php:54
+#. translators: version numbers.
+msgid ""
+"“%1$s” requires PHP %2$s (or newer) and WordPress %3$s (or newer) to "
+"function properly. Your site is using PHP %4$s and WordPress %5$s. Please "
+"upgrade. The plugin has been automatically deactivated."
+msgstr ""
+
+#: vendor/olegabr/ethereumicoio-blockchains-info/arbitrum-goerli.php:7
+msgid "Arbitrum Görli Testnet"
+msgstr ""
+
+#: vendor/olegabr/ethereumicoio-blockchains-info/arbitrum-mainnet.php:7
+msgid "Arbitrum Mainnet"
+msgstr ""
+
+#: vendor/olegabr/ethereumicoio-blockchains-info/arbitrum-rinkeby.php:7
+msgid "Arbitrum Rinkeby Testnet"
+msgstr ""
+
+#: vendor/olegabr/ethereumicoio-blockchains-info/aurora-mainnet.php:7
+msgid "Aurora Mainnet"
+msgstr ""
+
+#: vendor/olegabr/ethereumicoio-blockchains-info/aurora-testnet.php:7
+msgid "Aurora Testnet"
+msgstr ""
+
+#: vendor/olegabr/ethereumicoio-blockchains-info/avalanche-fuji.php:7
+msgid "Avalanche (C-Chain) Fuji Testnet"
+msgstr ""
+
+#: vendor/olegabr/ethereumicoio-blockchains-info/avalanche-mainnet.php:7
+msgid "Avalanche (C-Chain) Mainnet"
+msgstr ""
+
+#: vendor/olegabr/ethereumicoio-blockchains-info/ethereum-goerli.php:7
+msgid "Ethereum Görli Testnet"
+msgstr ""
+
+#: vendor/olegabr/ethereumicoio-blockchains-info/ethereum-mainnet.php:7
+msgid "Ethereum Mainnet"
+msgstr ""
+
+#: vendor/olegabr/ethereumicoio-blockchains-info/ethereum-sepolia.php:7
+msgid "Ethereum Sepolia Testnet"
+msgstr ""
+
+#: vendor/olegabr/ethereumicoio-blockchains-info/optimism-goerli.php:7
+msgid "Optimism Görli Testnet"
+msgstr ""
+
+#: vendor/olegabr/ethereumicoio-blockchains-info/optimism-kovan.php:7
+msgid "Optimism Kovan Testnet"
+msgstr ""
+
+#: vendor/olegabr/ethereumicoio-blockchains-info/optimism-mainnet.php:7
+msgid "Optimism Mainnet"
+msgstr ""
+
+#: vendor/olegabr/ethereumicoio-blockchains-info/palm-mainnet.php:7
+msgid "Palm Mainnet"
+msgstr ""
+
+#: vendor/olegabr/ethereumicoio-blockchains-info/palm-testnet.php:7
+msgid "Palm Testnet"
+msgstr ""
+
+#: vendor/olegabr/ethereumicoio-blockchains-info/polygon-mainnet.php:7
+msgid "Polygon Mainnet"
+msgstr ""
+
+#: vendor/olegabr/ethereumicoio-blockchains-info/polygon-mumbai.php:7
+msgid "Polygon Mumbai Testnet"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "EthPress NFT Access Add-On"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://gitlab.com/losnappas/ethpress-nft-access-addon"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "NFT ERC-721 and ERC-1155 access control support for EthPress."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Lynn (lynn.mvp at tutanota dot com), ethereumicoio"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://ethereumico.io/"
+msgstr ""

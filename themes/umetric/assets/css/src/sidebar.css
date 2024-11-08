@@ -1,0 +1,383 @@
+/*--------------------------------------------------------------
+# Sidebar
+--------------------------------------------------------------*/
+
+.search-form {
+	position: relative;
+}
+
+.widget .search-form input {
+	background: var(--global-body-bgcolor);
+	border-radius: var(--border-radius);
+}
+
+.search-form label {
+	display: none;
+}
+
+.search-form .search-submit .screen-reader-text { 
+	display: none;
+}
+
+.search-form input {
+	padding-right: 3.75em;
+	padding-left: 1em;
+	background: var(--white-color);
+	border: 0.063em solid var(--border-color-light);
+	outline: none;
+	border-radius: var(--border-radius);
+	font-size: var(--font-size-body);
+}
+
+.search-form .search-submit .screen-reader-text {
+	display: none;
+}
+
+/*SideBar - Recent Comments*/
+.umetric-widget-menu .umetric-post li a {
+	padding-left: 0;
+}
+
+.widget.widget_recent_comments .recentcomments {
+	color: var(--primary-color);
+}
+
+.widget.widget_recent_comments #recentcomments li.recentcomments a {
+	color: var(--body-text);
+	padding-left: 0;
+}
+
+.widget.widget_recent_comments #recentcomments li.recentcomments span a,
+.widget.widget_recent_comments #recentcomments--1 li.recentcomments span a {
+	color: var(--title-color);
+	font-weight: var(--font-weight-semi-bold);
+}
+
+.umetric-widget-menu .umetric-post li a::before {
+	display: none;
+}
+
+.widget.widget_recent_comments #recentcomments li.recentcomments a::before,
+.widget.widget_recent_comments #recentcomments--1 li.recentcomments a::before {
+	display: none;
+}
+
+.widget.widget_recent_comments #recentcomments li.recentcomments a:hover,
+.widget.widget_recent_comments #recentcomments--1 li.recentcomments a:hover {
+	color: var(--primary-color);
+	text-decoration: underline !important;
+	padding-left: 0;
+}
+
+/* SideBar Calendar */
+.widget_calendar table caption {
+	caption-side: inherit;
+	color: var(--secondary-color);
+	text-transform: uppercase;
+}
+
+.wp-block-calendar table caption {
+	caption-side: inherit;
+	text-align: center;
+	color: var(--white-color);
+	background: var(--primary-color);
+	text-transform: uppercase;
+}
+
+.calendar_wrap .wp-calendar-table caption {
+	text-transform: uppercase;
+	background: var(--primary-color);
+	color: var(--white-color);
+	caption-side: inherit;
+	text-align: center;
+}
+
+.widget_calendar table#wp-calendar {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+
+.widget_calendar .calendar_wrap td#today {
+	background: var(--primary-color);
+	color: var(--white-color);
+}
+
+.widget_calendar .calendar_wrap td#today a {
+	color: var(--white-color);
+}
+
+.widget_calendar .calendar_wrap table th {
+	background: var(--white-color);
+	color: var(--secondary-color);
+}
+
+.wp-block-calendar table th {
+	background: transparent;
+	color: var(--primary-color);
+	font-weight: var(--font-weight-bold);
+}
+
+.widget_calendar .calendar_wrap table th,
+.widget_calendar .calendar_wrap table td {
+	padding: 0.5em;
+	text-align: center;
+}
+
+.wp-block-calendar tbody td,
+.wp-block-calendar th {
+	border-color: var(--border-color-light);
+	color: var(--body-text);
+}
+
+.widget_calendar table#wp-calendar {
+	margin-bottom: 0.625em;
+}
+
+.wp-calendar-nav {
+	justify-content: space-between;
+	display: flex;
+	text-transform: uppercase;
+}
+
+.widget_calendar table#wp-calendar {
+	margin-bottom: 0.625em;
+}
+
+/*---------------  Categories side widget  ------------------------*/
+.widget_categories ul li span.archiveCount,
+.widget.widget_archive ul li span.achiveCount,
+.widget.widget_block .wp-block-categories-list .archiveCount {
+	color: var(--white-color);
+	line-height: var(--font-line-height-body);
+	float: right;
+}
+
+.widget.widget_archive ul li span.archiveCount {
+	letter-spacing: var(--custom-letter-spacing);
+	float: right;
+	color: var(--white-color);
+}
+
+.download-item li {
+	display: block;
+	background: var(--global-white-light-color);
+	padding-bottom: 0 !important;
+}
+
+.download-item li i {
+	background: var(--primary-color);
+	padding: 1em;
+	color: var(--white-color);
+	font-size: var(--font-size-24);
+}
+
+.widget.get-file {
+	margin-bottom: 1em;
+	padding: 0;
+	background: transparent;
+}
+
+.widget.get-file a:hover {
+	color: var(--primary-color);
+}
+
+.widget.get-file a {
+	text-decoration: none;
+}
+
+/*-----------    Blog - SideBar  -------------------------*/
+.umetric-widget-menu ul.umetric-post li {
+	border: none;
+}
+
+.umetric-post-sidebar {
+	height: 100%;
+}
+
+.testimonail-widget-menu.widget {
+	padding: 0;
+	background: transparent;
+}
+
+/* SideBar Categories List */
+.widget_categories ul li a,
+.widget_archive ul li a {
+	color: var(--body-text);
+}
+
+/* SideBar Archives Dropdown */
+.widget select,
+.widget.widget_archive select,
+.widget_categories select {
+	border: 0.063em solid var(--border-color-light);
+	outline: none;
+	border-radius: var(--border-radius);
+	font-size: var(--font-size-body);
+	line-height: var(--font-line-height-body);
+}
+
+/* Meta Sidebar - widget RSS*/
+.widget.widget_rss ul li {
+	margin-bottom: 1.25em;
+}
+
+.widget.widget_rss ul li:last-child {
+	margin-bottom: 0;
+}
+
+.widget.widget_rss ul li a {
+	padding-left: 0;
+	font-size: var(--font-size-18);
+	color: var(--title-color);
+	font-weight: var(--font-weight-semi-bold);
+}
+
+.widget.widget_rss ul li a:hover {
+	color: var(--primary-color);
+}
+
+.widget.widget_rss ul li a::before {
+	display: none;
+}
+
+.widget.widget_rss ul li .rss-date {
+	text-transform: uppercase;
+	display: inline-block;
+	width: 100%;
+	margin: 0.313em 0;
+	color: var(--primary-color);
+	font-size: var(--font-size-normal);
+}
+
+.widget.widget_rss ul li cite {
+	margin-top: 0.313em;
+	display: inline-block;
+	width: 100%;
+}
+
+/*widget Nav Menu*/
+.widget.widget_nav_menu ul li,
+.widget ul.menu li {
+	margin-bottom: 0;
+}
+
+.widget.widget_nav_menu ul li .sub-menu,
+.widget ul.menu li .sub-menu {
+	display: block !important;
+	padding-left: 1.25em;
+}
+
+.widget.widget_nav_menu ul li a,
+.widget ul.menu li a {
+	padding: 0.625em 0 0.625em 1em;
+	display: inline-block;
+	width: 100%;
+}
+
+.widget.widget_nav_menu ul li i,
+.widget ul.menu li i {
+	display: none;
+}
+
+
+.widget.widget_nav_menu #menu-service-menu li.current-menu-item a {
+	background: var(--primary-color);
+	color: var(--white-color);
+}
+
+.umetric-widget-menu .umetric-post li a.date-widget {
+	color: var(--primary-color);
+	margin-bottom: 0.625em;
+	display: block;
+	font-size: var(--font-size-small);
+	font-weight: var(--font-weight-bold);
+}
+
+.umetric-widget-menu .post-img .post-blog a.new-link h6 {
+	color: var(--white-color);
+	line-height: 1.438em;
+	display: block;
+	overflow: hidden;
+}
+
+/* SideBar - widget Recent Entries*/
+.widget_recent_entries ul li .post-date {
+	color: var(--secondary-color);
+	float: right;
+}
+
+/*SideBar - Tags*/
+.widget_tag_cloud ul {
+	margin: 0;
+	padding: 0;
+}
+
+.widget_tag_cloud ul li {
+	padding: 0;
+	display: inline-block;
+	margin: 0.188em 0.313em 0.188em 0;
+}
+
+.widget.widget_block .wp-block-tag-cloud a,
+.widget.widget_tag_cloud ul li a {
+	display: inline-block;
+	color: var(--body-text);
+	text-decoration: underline;
+	padding: 0;
+	text-transform: uppercase;
+	font-size: var(--font-size-small) !important;
+	font-weight: var(--font-weight-semi-bold);
+	letter-spacing: var(--letter-spacing-one);
+	margin: 0 0.625em 0.625em 0;
+}
+
+.widget.widget_block .wp-block-tag-cloud a:last-child,
+.widget.widget_tag_cloud ul li a:last-child{
+	margin: 0;
+}
+
+p.wp-block-tag-cloud{
+	margin: 0;
+}
+
+.widget.widget_block .wp-block-tag-cloud a:hover, 
+.widget_tag_cloud ul li a.tag-cloud-link:hover {
+	color: var(--primary-color);
+	text-decoration: underline;
+}
+
+.widget_tag_cloud ul li a::before {
+	display: none;
+}
+
+.wp-block-latest-comments__comment {
+	display: inline-block;
+	padding-bottom: 1.25em;
+	list-style: none;
+	margin-bottom: 1.25em;
+	border-bottom: 0.063em solid rgba(82, 95, 129, .2);
+}
+
+.wp-block-latest-comments__comment:last-child {
+	border: none;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+ol.wp-block-latest-comments {
+	margin-bottom: 0;
+}
+
+@media(max-width: 29.938em) {
+	.widget.widget_nav_menu ul li .sub-menu, .widget ul.menu li .sub-menu {
+		padding-left: 0.625em;
+	}
+	.widget_calendar .calendar_wrap table td, 
+	.widget_calendar .calendar_wrap table th {
+		padding: 0.313em;
+		font-size: var(--font-size-normal);
+	}
+}

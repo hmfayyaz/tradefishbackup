@@ -1,0 +1,13 @@
+.umetric-image-carousel .umetric-content{
+    margin-bottom: 2em;
+}
+
+.umetric-image-carousel .slider-img img{
+    border-radius: var(--border-radius-box);
+    border: 0.125em solid var(--color-theme-primary);
+    box-shadow: var( --box-shadow-dark);
+}
+.swiper.swiper-container-horizontal.umetric-image-carousel {
+    clip-path: inset( -100vw -100vw -100vw 0 );
+    overflow: visible;
+}

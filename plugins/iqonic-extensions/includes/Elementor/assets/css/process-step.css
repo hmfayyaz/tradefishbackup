@@ -1,0 +1,34 @@
+/*--------------------------------------------------------------
+                   Process Steps
+--------------------------------------------------------------*/
+
+/*style 1*/
+.iq-process-step .iq-before-img { position: absolute; right: -20%; top: 15%; }
+.text-left .iq-process-step  .iq-before-img { right: 15%; }
+.text-right .iq-process-step  .iq-before-img { left: 10%; right: auto; }
+.iq-before-img { position: absolute; right: -20%; top: 15%; }
+
+
+/*style 7*/
+.iq-process-step-style-7 .iq-process-step { position: relative; display: block; padding: 30px; transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; }
+.iq-process-step-style-7 .iq-step-title, .iq-step-text-area { transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; }
+.iq-process-step-style-7 .iq-process-step  .iq-step-content .step-number { background: var(--white-color); border-radius: 100px; box-shadow: 0px 25px 40px 0px rgba(0, 0, 0, 0.15); color: var(--primary-color); width: 40px; height: 40px; line-height: 40px; text-align: center; position: absolute; font-weight: var(--font-weight-semi-bold); top: -15px; right: -15px; z-index: 1; background: rgba(37, 177, 95, 0.2); }
+.text-right.iq-process-step-style-7 .iq-process-step  .iq-step-content .step-number { left: -15px; right: auto; }
+.iq-process-step-style-7 .iq-process-step  .iq-step-content i { font-size: var(--font-size-62); color: var(--primary-color); transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; }
+.iq-process-step-style-7 .iq-process-step  .iq-step-content { margin-bottom: 15px; display: inline-block; line-height: normal; vertical-align: middle; }
+.iq-process-step-style-7 .iq-process-step .iq-step-text-area .iq-step-desc { margin-top: 10px; margin-bottom: 15px; display: block; }
+.iq-process-step-style-7 .iq-process-step { transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; }
+
+/*----------------------------------------
+  Responsive
+----------------------------------------*/
+@media(max-width: 992px){
+    .iq-process-step .iq-before-img { display: none; }
+    .iq-process-step-style-1 .iq-process-step li { width: 50%; margin-bottom: 45px; }
+
+}
+
+@media(max-width: 767px){
+    .iq-process-step-style-1 .iq-process-step li { width: 100%; }
+ 
+}

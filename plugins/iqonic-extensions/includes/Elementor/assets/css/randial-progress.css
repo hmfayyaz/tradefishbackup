@@ -1,0 +1,14 @@
+.tox-progress{position:relative}.tox-progress .radial-outer,.tox-progress .radial-inner{border-radius:50%}.tox-progress .radial-inner,.tox-progress .radial-mask-1,.tox-progress .radial-mask-2,.tox-progress .radial-mask-3,.tox-progress .tox-progress-content{position:relative}.tox-progress .radial-mask-1,.tox-progress .radial-mask-2,.tox-progress .radial-mask-3{transform-origin:bottom center}.tox-progress .radial-mask-1,.tox-progress .radial-mask-3{transform:rotate(90deg)}.tox-progress .radial-mask-2{transform:rotate(270deg)}
+
+/*Circle Progressbar*/
+.iq-radial-progress.text-center .tox-progress { margin: 0 auto 15px; text-align: center; color: var(--secondary-color); }
+.iq-radial-progress.text-right .tox-progress  { margin: 0 0 15px auto; text-align: right;}
+.iq-radial-progress .tox-progress-content .text-center { width: 100%; }
+.iq-radial-progress .tox-progress { margin-bottom: 15px; }
+.iq-radial-progress .tox-progress-content .text-center p { font-weight: var(--font-weight-bold); margin-top: 0;}
+.iq-radial-progress p { margin-bottom: 0; color: var(--secondary-color); }
+.iq-radial-progress .tox-progress-content .text-center p { font-weight: var(--font-weight-normal); margin-top: 0;}
+.iq-radial-progress p { font-size: 24px; margin-top: 0;}
+.iq-radial-progress .tox-progress p { font-size: 15px; }
+
+
